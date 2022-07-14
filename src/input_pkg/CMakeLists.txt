@@ -58,7 +58,9 @@ include_directories("include/input_pkg/")
 
 # **********************************************
 # CKim - Files to be compiled and built
-add_executable(hapticNode src/hapticNode.cpp)
+add_executable(hapticNode src/hapticNode.cpp
+                          src/TCPcomm.cpp)
+                          
 ament_target_dependencies(hapticNode rclcpp std_msgs sensor_msgs ecat_msgs)
 # **********************************************
 
