@@ -1,0 +1,83 @@
+[0.019s] Invoking command in '/home/daeyun/Desktop/spinerobot_ws/build/input_pkg': AMENT_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/daeyun/Desktop/spinerobot_ws/build/input_pkg -- -j8 -l8
+[0.080s] [ 33%] [32mBuilding CXX object CMakeFiles/hapticNode.dir/src/hapticNode.cpp.o[0m
+[3.742s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:[m[K In constructor ‘[01m[KHapticNode::HapticNode(char**)[m[K’:
+[3.743s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:60:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.743s]    60 | HapticNode::HapticNode([01;35m[Kchar * argv[][m[K) : rclcpp::Node("HapticNode")
+[3.743s]       |                        [01;35m[K~~~~~~~^~~~~~[m[K
+[3.761s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:[m[K In member function ‘[01m[Kvoid HapticNode::commThread()[m[K’:
+[3.761s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:122:22:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstatus[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[3.761s]   122 |   std::future_status [01;35m[Kstatus[m[K;
+[3.762s]       |                      [01;35m[K^~~~~~[m[K
+[3.762s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:125:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.762s]   125 |   static int [01;35m[Kcount[m[K = 0;
+[3.762s]       |              [01;35m[K^~~~~[m[K
+[3.769s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:[m[K In member function ‘[01m[Kvoid HapticNode::CommWriteThread(int)[m[K’:
+[3.769s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:156:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktimestamp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.769s]   156 |     double [01;35m[Ktimestamp[m[K = 0;
+[3.769s]       |            [01;35m[K^~~~~~~~~[m[K
+[3.770s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:157:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_q[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.770s]   157 |     double [01;35m[Ktarget_q[m[K[7] = {0};
+[3.770s]       |            [01;35m[K^~~~~~~~[m[K
+[3.770s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:158:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_qd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.770s]   158 |     double [01;35m[Ktarget_qd[m[K[7] = {0};
+[3.771s]       |            [01;35m[K^~~~~~~~~[m[K
+[3.771s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:159:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_qdd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.771s]   159 |     double [01;35m[Ktarget_qdd[m[K[7] = {0};
+[3.772s]       |            [01;35m[K^~~~~~~~~~[m[K
+[3.772s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:160:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_current[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.772s]   160 |     double [01;35m[Ktarget_current[m[K[7] = {0};
+[3.772s]       |            [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.772s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:161:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktarget_moment[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.772s]   161 |     double [01;35m[Ktarget_moment[m[K[7] = {0};
+[3.773s]       |            [01;35m[K^~~~~~~~~~~~~[m[K
+[3.773s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:[m[K In member function ‘[01m[Kvoid HapticNode::CommReadThread(int)[m[K’:
+[3.773s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:276:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst uint32_t[m[K’ {aka ‘[01m[Kconst unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[3.773s]   276 |     for(int i=0; [01;35m[Ki<g_kNumberOfServoDrivers[m[K; i++)
+[3.774s]       |                  [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.799s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:[m[K In member function ‘[01m[Kvoid HapticNode::DoubleToIntByte(char*, double)[m[K’:
+[3.799s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:346:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[3.800s]   346 |     for(int i=0; [01;35m[Ki<sizeof(cnvt_double.data_char)[m[K; i++)
+[3.800s]       |                  [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.800s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:343:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbuf_data[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.800s]   343 |     char [01;35m[Kbuf_data[m[K[8];
+[3.800s]       |          [01;35m[K^~~~~~~~[m[K
+[3.805s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:[m[K In member function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > HapticNode::Parsing(char*, int)[m[K’:
+[3.805s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:412:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst uint32_t[m[K’ {aka ‘[01m[Kconst unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[3.806s]   412 |   for (int i = 0; [01;35m[Ki < g_kNumberOfServoDrivers[m[K; i++)
+[3.806s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.812s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:474:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[3.812s]   474 |   for (int i = 0; [01;35m[Ki < motor_val.size()[m[K; i++)
+[3.812s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[7.690s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:[m[K At global scope:
+[7.691s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:125:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcount[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[7.691s]   125 |   static int [01;35m[Kcount[m[K = 0;
+[7.691s]       |              [01;35m[K^~~~~[m[K
+[7.691s] In file included from [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/../ecat_pkg/include/ecat_pkg/ecat_globals.hpp:42[m[K,
+[7.691s]                  from [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/include/input_pkg/hapticNode.hpp:33[m[K,
+[7.692s]                  from [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:28[m[K:
+[7.692s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/../ecat_pkg/include/ecat_pkg/ecat_definitions.hpp:510:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::string GetErrorMessage(const int&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[7.692s]   510 | static std::string [01;35m[KGetErrorMessage[m[K(const int& err_code)
+[7.692s]       |                    [01;35m[K^~~~~~~~~~~~~~~[m[K
+[13.267s] [ 66%] [32m[1mLinking CXX executable hapticNode[0m
+[13.681s] [100%] Built target hapticNode
+[13.699s] Invoked command in '/home/daeyun/Desktop/spinerobot_ws/build/input_pkg' returned '0': AMENT_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/daeyun/Desktop/spinerobot_ws/build/input_pkg -- -j8 -l8
+[13.742s] Invoking command in '/home/daeyun/Desktop/spinerobot_ws/build/input_pkg': AMENT_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/daeyun/Desktop/spinerobot_ws/build/input_pkg
+[13.755s] -- Install configuration: ""
+[13.756s] -- Execute custom install script
+[13.757s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/lib/input_pkg/hapticNode
+[13.772s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/ament_index/resource_index/package_run_dependencies/input_pkg
+[13.788s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/ament_index/resource_index/parent_prefix_path/input_pkg
+[13.803s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/input_pkg/environment/ament_prefix_path.sh
+[13.818s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/input_pkg/environment/ament_prefix_path.dsv
+[13.832s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/input_pkg/environment/path.sh
+[13.846s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/input_pkg/environment/path.dsv
+[13.861s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/input_pkg/local_setup.bash
+[13.875s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/input_pkg/local_setup.sh
+[13.890s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/input_pkg/local_setup.zsh
+[13.904s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/input_pkg/local_setup.dsv
+[13.918s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/input_pkg/package.dsv
+[13.933s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/ament_index/resource_index/packages/input_pkg
+[13.947s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/input_pkg/cmake/input_pkgConfig.cmake
+[13.961s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/input_pkg/cmake/input_pkgConfig-version.cmake
+[13.976s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/input_pkg/share/input_pkg/package.xml
+[13.996s] Invoked command in '/home/daeyun/Desktop/spinerobot_ws/build/input_pkg' returned '0': AMENT_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/daeyun/Desktop/spinerobot_ws/build/input_pkg

@@ -1,0 +1,1209 @@
+[0.000000] (-) TimerEvent: {}
+[0.000281] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.000317] (ecat_msgs) JobQueued: {'identifier': 'ecat_msgs', 'dependencies': OrderedDict()}
+[0.000336] (ecat_pkg) JobQueued: {'identifier': 'ecat_pkg', 'dependencies': OrderedDict([('ecat_msgs', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs')])}
+[0.000359] (gui_pkg) JobQueued: {'identifier': 'gui_pkg', 'dependencies': OrderedDict([('ecat_msgs', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs')])}
+[0.000373] (input_pkg) JobQueued: {'identifier': 'input_pkg', 'dependencies': OrderedDict([('ecat_msgs', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs')])}
+[0.000385] (safety_pkg) JobQueued: {'identifier': 'safety_pkg', 'dependencies': OrderedDict([('ecat_msgs', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs')])}
+[0.000654] (ecat_msgs) JobStarted: {'identifier': 'ecat_msgs'}
+[0.006472] (controller) JobStarted: {'identifier': 'controller'}
+[0.012262] (ecat_msgs) JobProgress: {'identifier': 'ecat_msgs', 'progress': 'cmake'}
+[0.012452] (ecat_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/daeyun/Desktop/spinerobot_ws/src/ecat_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs'], 'cwd': '/home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'ko_KR.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('SUDO_USER', 'daeyun'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.016299] (controller) JobProgress: {'identifier': 'controller', 'progress': 'cmake'}
+[0.016463] (controller) Command: {'cmd': ['/usr/bin/cmake', '/home/daeyun/Desktop/spinerobot_ws/src/controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/daeyun/Desktop/spinerobot_ws/install/controller'], 'cwd': '/home/daeyun/Desktop/spinerobot_ws/build/controller', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'ko_KR.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('SUDO_USER', 'daeyun'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/daeyun/Desktop/spinerobot_ws/build/controller'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.074035] (ecat_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.074241] (controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099581] (-) TimerEvent: {}
+[0.114524] (ecat_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.114673] (controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.120678] (controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.120878] (ecat_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.172561] (controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.172733] (ecat_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.174242] (ecat_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.174373] (controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199705] (-) TimerEvent: {}
+[0.230727] (controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.230876] (ecat_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.238469] (controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.238593] (ecat_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.238926] (ecat_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.239041] (controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.242262] (controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.242361] (ecat_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299884] (-) TimerEvent: {}
+[0.303609] (controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.303829] (ecat_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.304399] (ecat_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.304592] (controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.365217] (controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.365424] (ecat_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.372972] (ecat_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.373267] (controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.373368] (ecat_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.373576] (controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.375886] (ecat_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.376007] (controller) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.397614] (controller) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.397820] (controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.397870] (ecat_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.397929] (ecat_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.399952] (-) TimerEvent: {}
+[0.500213] (-) TimerEvent: {}
+[0.556703] (controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.556883] (ecat_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.588764] (ecat_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.589358] (controller) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.600284] (-) TimerEvent: {}
+[0.615950] (ecat_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.621216] (ecat_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.626056] (controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.630566] (controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.689659] (ecat_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.691109] (controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.700371] (-) TimerEvent: {}
+[0.712743] (ecat_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.713523] (controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.776647] (controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.776808] (ecat_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800500] (-) TimerEvent: {}
+[0.815824] (ecat_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.828599] (controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.830125] (controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.831386] (controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.839764] (ecat_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.886396] (controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.886637] (controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900602] (-) TimerEvent: {}
+[0.944011] (controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.944174] (controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.965135] (ecat_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.992447] (controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.992640] (controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.000680] (-) TimerEvent: {}
+[1.044918] (controller) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.045749] (controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.098851] (ecat_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.100737] (-) TimerEvent: {}
+[1.142711] (ecat_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.158640] (controller) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.160877] (ecat_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.162007] (ecat_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.182107] (ecat_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.182295] (ecat_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.182366] (ecat_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.182425] (ecat_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.197454] (ecat_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.200822] (-) TimerEvent: {}
+[1.245265] (controller) StdoutLine: {'line': b'-- Found rttest: 0.9.0 (/opt/ros/foxy/share/rttest/cmake)\n'}
+[1.248536] (controller) StdoutLine: {'line': b'-- Found tlsf_cpp: 0.9.0 (/opt/ros/foxy/share/tlsf_cpp/cmake)\n'}
+[1.252599] (controller) StdoutLine: {'line': b'-- Looking for include file linux/joystick.h\n'}
+[1.254918] (ecat_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.290820] (ecat_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.292762] (ecat_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs\n'}
+[1.299216] (ecat_msgs) CommandEnded: {'returncode': 0}
+[1.299634] (ecat_msgs) JobProgress: {'identifier': 'ecat_msgs', 'progress': 'build'}
+[1.300353] (ecat_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs', '--', '-j8', '-l8'], 'cwd': '/home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'ko_KR.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('SUDO_USER', 'daeyun'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.301873] (-) TimerEvent: {}
+[1.310447] (controller) StdoutLine: {'line': b'-- Looking for include file linux/joystick.h - found\n'}
+[1.333738] (ecat_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.333931] (ecat_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_msgs__cpp\x1b[0m\n'}
+[1.343931] (ecat_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.360730] (controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.368329] (controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.369671] (controller) StdoutLine: {'line': b'-- Build files have been written to: /home/daeyun/Desktop/spinerobot_ws/build/controller\n'}
+[1.375006] (controller) CommandEnded: {'returncode': 0}
+[1.375600] (controller) JobProgress: {'identifier': 'controller', 'progress': 'build'}
+[1.375921] (controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daeyun/Desktop/spinerobot_ws/build/controller', '--', '-j8', '-l8'], 'cwd': '/home/daeyun/Desktop/spinerobot_ws/build/controller', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'ko_KR.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('SUDO_USER', 'daeyun'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/daeyun/Desktop/spinerobot_ws/build/controller'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.402017] (-) TimerEvent: {}
+[1.412474] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target joy_node\x1b[0m\n'}
+[1.447503] (controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_node.dir/src/joy_node_linux.cpp.o\x1b[0m\n'}
+[1.502121] (-) TimerEvent: {}
+[1.602362] (-) TimerEvent: {}
+[1.702645] (-) TimerEvent: {}
+[1.703520] (ecat_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.713891] (ecat_msgs) StdoutLine: {'line': b'[  3%] Built target ecat_msgs__cpp\n'}
+[1.719390] (ecat_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__rosidl_generator_c.dir/rosidl_generator_c/ecat_msgs/msg/detail/haptic_cmd__functions.c.o\x1b[0m\n'}
+[1.720656] (ecat_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__rosidl_generator_c.dir/rosidl_generator_c/ecat_msgs/msg/detail/data_sent__functions.c.o\x1b[0m\n'}
+[1.720857] (ecat_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__rosidl_generator_c.dir/rosidl_generator_c/ecat_msgs/msg/detail/gui_button_data__functions.c.o\x1b[0m\n'}
+[1.721159] (ecat_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__rosidl_generator_c.dir/rosidl_generator_c/ecat_msgs/msg/detail/data_received__functions.c.o\x1b[0m\n'}
+[1.728530] (ecat_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.728790] (ecat_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.728897] (ecat_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.778679] (ecat_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libecat_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.802756] (-) TimerEvent: {}
+[1.815525] (ecat_msgs) StdoutLine: {'line': b'[ 18%] Built target ecat_msgs__rosidl_generator_c\n'}
+[1.830052] (ecat_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.830303] (ecat_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.902868] (-) TimerEvent: {}
+[2.003350] (-) TimerEvent: {}
+[2.103654] (-) TimerEvent: {}
+[2.203940] (-) TimerEvent: {}
+[2.227853] (ecat_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.247872] (ecat_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ecat_msgs/msg/data_sent__type_support.cpp.o\x1b[0m\n'}
+[2.248307] (ecat_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ecat_msgs/msg/gui_button_data__type_support.cpp.o\x1b[0m\n'}
+[2.248581] (ecat_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ecat_msgs/msg/data_received__type_support.cpp.o\x1b[0m\n'}
+[2.261143] (ecat_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ecat_msgs/msg/haptic_cmd__type_support.cpp.o\x1b[0m\n'}
+[2.304071] (-) TimerEvent: {}
+[2.375177] (ecat_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.386057] (ecat_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[2.402970] (ecat_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ecat_msgs/msg/detail/dds_fastrtps/data_received__type_support.cpp.o\x1b[0m\n'}
+[2.404162] (-) TimerEvent: {}
+[2.410503] (ecat_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ecat_msgs/msg/data_received__type_support.cpp.o\x1b[0m\n'}
+[2.419981] (ecat_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.463252] (ecat_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ecat_msgs/msg/data_sent__type_support.cpp.o\x1b[0m\n'}
+[2.479745] (ecat_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ecat_msgs/msg/detail/data_received__type_support.cpp.o\x1b[0m\n'}
+[2.496113] (ecat_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.504297] (-) TimerEvent: {}
+[2.535698] (ecat_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ecat_msgs/msg/detail/data_received__type_support.c.o\x1b[0m\n'}
+[2.540298] (ecat_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ecat_msgs/msg/gui_button_data__type_support.cpp.o\x1b[0m\n'}
+[2.604432] (-) TimerEvent: {}
+[2.623748] (ecat_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ecat_msgs/msg/haptic_cmd__type_support.cpp.o\x1b[0m\n'}
+[2.640174] (ecat_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ecat_msgs/msg/detail/data_sent__type_support.c.o\x1b[0m\n'}
+[2.666441] (ecat_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ecat_msgs/msg/detail/dds_fastrtps/data_sent__type_support.cpp.o\x1b[0m\n'}
+[2.677092] (ecat_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ecat_msgs/msg/detail/gui_button_data__type_support.c.o\x1b[0m\n'}
+[2.677858] (ecat_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ecat_msgs/msg/detail/dds_fastrtps/gui_button_data__type_support.cpp.o\x1b[0m\n'}
+[2.679590] (ecat_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libecat_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.692547] (ecat_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ecat_msgs/msg/detail/haptic_cmd__type_support.c.o\x1b[0m\n'}
+[2.704570] (-) TimerEvent: {}
+[2.708212] (ecat_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libecat_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.757192] (ecat_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libecat_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.759996] (ecat_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ecat_msgs/msg/detail/dds_fastrtps/haptic_cmd__type_support.cpp.o\x1b[0m\n'}
+[2.777742] (ecat_msgs) StdoutLine: {'line': b'[ 58%] Built target ecat_msgs__rosidl_typesupport_c\n'}
+[2.779298] (ecat_msgs) StdoutLine: {'line': b'[ 58%] Built target ecat_msgs__rosidl_typesupport_cpp\n'}
+[2.793306] (ecat_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ecat_msgs/msg/detail/data_sent__type_support.cpp.o\x1b[0m\n'}
+[2.794670] (ecat_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ecat_msgs/msg/detail/gui_button_data__type_support.cpp.o\x1b[0m\n'}
+[2.804693] (-) TimerEvent: {}
+[2.830101] (ecat_msgs) StdoutLine: {'line': b'[ 61%] Built target ecat_msgs__rosidl_typesupport_introspection_c\n'}
+[2.845110] (ecat_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ecat_msgs/msg/detail/haptic_cmd__type_support.cpp.o\x1b[0m\n'}
+[2.904818] (-) TimerEvent: {}
+[3.005200] (-) TimerEvent: {}
+[3.105597] (-) TimerEvent: {}
+[3.206151] (-) TimerEvent: {}
+[3.306605] (-) TimerEvent: {}
+[3.389597] (ecat_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libecat_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.406727] (-) TimerEvent: {}
+[3.432012] (ecat_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libecat_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.470017] (ecat_msgs) StdoutLine: {'line': b'[ 67%] Built target ecat_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.479848] (ecat_msgs) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.501236] (ecat_msgs) StdoutLine: {'line': b'[ 69%] Built target ecat_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.506788] (-) TimerEvent: {}
+[3.607078] (-) TimerEvent: {}
+[3.707489] (-) TimerEvent: {}
+[3.760649] (ecat_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.777100] (ecat_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ecat_msgs/msg/detail/gui_button_data__type_support_c.cpp.o\x1b[0m\n'}
+[3.777380] (ecat_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ecat_msgs/msg/detail/data_received__type_support_c.cpp.o\x1b[0m\n'}
+[3.778282] (ecat_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ecat_msgs/msg/detail/haptic_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[3.778693] (ecat_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ecat_msgs/msg/detail/data_sent__type_support_c.cpp.o\x1b[0m\n'}
+[3.807603] (-) TimerEvent: {}
+[3.907983] (-) TimerEvent: {}
+[4.008395] (-) TimerEvent: {}
+[4.108768] (-) TimerEvent: {}
+[4.185327] (ecat_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libecat_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.208871] (-) TimerEvent: {}
+[4.252120] (ecat_msgs) StdoutLine: {'line': b'[ 78%] Built target ecat_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.259684] (ecat_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_msgs\x1b[0m\n'}
+[4.267762] (ecat_msgs) StdoutLine: {'line': b'[ 78%] Built target ecat_msgs\n'}
+[4.275607] (ecat_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_msgs__py\x1b[0m\n'}
+[4.283737] (ecat_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.308976] (-) TimerEvent: {}
+[4.409221] (-) TimerEvent: {}
+[4.509496] (-) TimerEvent: {}
+[4.609825] (-) TimerEvent: {}
+[4.710128] (-) TimerEvent: {}
+[4.810389] (-) TimerEvent: {}
+[4.811111] (controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joy_node\x1b[0m\n'}
+[4.907331] (ecat_msgs) StdoutLine: {'line': b'[ 80%] Built target ecat_msgs__py\n'}
+[4.910462] (-) TimerEvent: {}
+[4.915295] (ecat_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_msgs__python\x1b[0m\n'}
+[4.951382] (ecat_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__python.dir/rosidl_generator_py/ecat_msgs/msg/_haptic_cmd_s.c.o\x1b[0m\n'}
+[4.952229] (ecat_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__python.dir/rosidl_generator_py/ecat_msgs/msg/_data_sent_s.c.o\x1b[0m\n'}
+[4.952906] (ecat_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__python.dir/rosidl_generator_py/ecat_msgs/msg/_data_received_s.c.o\x1b[0m\n'}
+[4.953030] (ecat_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__python.dir/rosidl_generator_py/ecat_msgs/msg/_gui_button_data_s.c.o\x1b[0m\n'}
+[4.961539] (controller) StdoutLine: {'line': b'[100%] Built target joy_node\n'}
+[4.978024] (controller) CommandEnded: {'returncode': 0}
+[5.010629] (-) TimerEvent: {}
+[5.012392] (controller) JobProgress: {'identifier': 'controller', 'progress': 'install'}
+[5.028619] (controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/daeyun/Desktop/spinerobot_ws/build/controller'], 'cwd': '/home/daeyun/Desktop/spinerobot_ws/build/controller', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'ko_KR.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('SUDO_USER', 'daeyun'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/daeyun/Desktop/spinerobot_ws/build/controller'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.041821] (controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.042329] (controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.043114] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/lib/controller/joy_node\n'}
+[5.052808] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/ament_index/resource_index/package_run_dependencies/controller\n'}
+[5.061451] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/ament_index/resource_index/parent_prefix_path/controller\n'}
+[5.068730] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/environment/ament_prefix_path.sh\n'}
+[5.074667] (ecat_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ecat_msgs/libecat_msgs__python.so\x1b[0m\n'}
+[5.075609] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/environment/ament_prefix_path.dsv\n'}
+[5.082150] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/environment/path.sh\n'}
+[5.089034] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/environment/path.dsv\n'}
+[5.096225] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/local_setup.bash\n'}
+[5.103679] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/local_setup.sh\n'}
+[5.107201] (ecat_msgs) StdoutLine: {'line': b'[ 89%] Built target ecat_msgs__python\n'}
+[5.110699] (-) TimerEvent: {}
+[5.111004] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/local_setup.zsh\n'}
+[5.116414] (ecat_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.116651] (ecat_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.116741] (ecat_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.119339] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/local_setup.dsv\n'}
+[5.129301] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/package.dsv\n'}
+[5.135939] (ecat_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ecat_msgs/_ecat_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.136945] (ecat_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ecat_msgs/_ecat_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.139008] (ecat_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ecat_msgs/_ecat_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.140655] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/ament_index/resource_index/packages/controller\n'}
+[5.149912] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/cmake/controllerConfig.cmake\n'}
+[5.158791] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/cmake/controllerConfig-version.cmake\n'}
+[5.167639] (controller) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/package.xml\n'}
+[5.178122] (controller) CommandEnded: {'returncode': 0}
+[5.210879] (-) TimerEvent: {}
+[5.216560] (ecat_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ecat_msgs/ecat_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.216880] (ecat_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ecat_msgs/ecat_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.223198] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[5.223600] (ecat_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/ecat_msgs/ecat_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.248409] (ecat_msgs) StdoutLine: {'line': b'[100%] Built target ecat_msgs__rosidl_typesupport_c__pyext\n'}
+[5.248652] (ecat_msgs) StdoutLine: {'line': b'[100%] Built target ecat_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.275685] (ecat_msgs) StdoutLine: {'line': b'[100%] Built target ecat_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.284817] (ecat_msgs) CommandEnded: {'returncode': 0}
+[5.311020] (-) TimerEvent: {}
+[5.375643] (ecat_msgs) JobProgress: {'identifier': 'ecat_msgs', 'progress': 'install'}
+[5.375895] (ecat_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs'], 'cwd': '/home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'ko_KR.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('SUDO_USER', 'daeyun'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.383726] (ecat_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.384169] (ecat_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.384444] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ament_index/resource_index/rosidl_interfaces/ecat_msgs\n'}
+[5.391936] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/data_received.h\n'}
+[5.398917] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/data_sent.h\n'}
+[5.405206] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__functions.h\n'}
+[5.411063] (-) TimerEvent: {}
+[5.411350] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__struct.h\n'}
+[5.417739] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__type_support.h\n'}
+[5.424141] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__functions.h\n'}
+[5.430487] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__struct.h\n'}
+[5.436807] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__type_support.h\n'}
+[5.444035] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__functions.h\n'}
+[5.450553] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__struct.h\n'}
+[5.457329] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__type_support.h\n'}
+[5.465652] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__functions.h\n'}
+[5.471965] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__struct.h\n'}
+[5.478683] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__type_support.h\n'}
+[5.485359] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/gui_button_data.h\n'}
+[5.492446] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/haptic_cmd.h\n'}
+[5.499274] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.505794] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/library_path.sh\n'}
+[5.511158] (-) TimerEvent: {}
+[5.512247] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/library_path.dsv\n'}
+[5.518678] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__rosidl_typesupport_fastrtps_c.h\n'}
+[5.524570] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__rosidl_typesupport_fastrtps_c.h\n'}
+[5.530706] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__rosidl_typesupport_fastrtps_c.h\n'}
+[5.537029] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[5.543974] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.551126] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.558445] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.564730] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.571423] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.577996] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.584518] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.592608] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.600327] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__rosidl_typesupport_introspection_c.h\n'}
+[5.608362] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__rosidl_typesupport_introspection_c.h\n'}
+[5.611258] (-) TimerEvent: {}
+[5.618258] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__rosidl_typesupport_introspection_c.h\n'}
+[5.625853] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__rosidl_typesupport_introspection_c.h\n'}
+[5.634187] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.641687] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/data_received.hpp\n'}
+[5.648807] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/data_sent.hpp\n'}
+[5.656584] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__builder.hpp\n'}
+[5.663367] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__struct.hpp\n'}
+[5.669695] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__traits.hpp\n'}
+[5.676325] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__builder.hpp\n'}
+[5.682833] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__struct.hpp\n'}
+[5.689577] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__traits.hpp\n'}
+[5.696164] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__builder.hpp\n'}
+[5.703016] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__struct.hpp\n'}
+[5.710013] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__traits.hpp\n'}
+[5.711343] (-) TimerEvent: {}
+[5.716672] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__builder.hpp\n'}
+[5.723134] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__struct.hpp\n'}
+[5.729613] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__traits.hpp\n'}
+[5.736079] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/gui_button_data.hpp\n'}
+[5.743123] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/haptic_cmd.hpp\n'}
+[5.750121] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.756772] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.763234] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.769999] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.776596] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/pythonpath.sh\n'}
+[5.782958] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/pythonpath.dsv\n'}
+[5.789525] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/__init__.py\n'}
+[5.796214] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/msg/__init__.py\n'}
+[5.802256] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/msg/_data_received.py\n'}
+[5.808469] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/msg/_data_sent.py\n'}
+[5.811445] (-) TimerEvent: {}
+[5.814645] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/msg/_gui_button_data.py\n'}
+[5.821081] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/msg/_haptic_cmd.py\n'}
+[5.827847] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/ecat_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.834457] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/ecat_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.841654] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/ecat_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.848077] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__python.so\n'}
+[5.854502] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/DataReceived.idl\n'}
+[5.860881] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/DataSent.idl\n'}
+[5.867155] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/GuiButtonData.idl\n'}
+[5.874217] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/HapticCmd.idl\n'}
+[5.880900] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/DataReceived.msg\n'}
+[5.887935] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/DataSent.msg\n'}
+[5.895032] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/GuiButtonData.msg\n'}
+[5.901992] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/HapticCmd.msg\n'}
+[5.909105] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ament_index/resource_index/package_run_dependencies/ecat_msgs\n'}
+[5.911534] (-) TimerEvent: {}
+[5.916441] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ament_index/resource_index/parent_prefix_path/ecat_msgs\n'}
+[5.923696] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/ament_prefix_path.sh\n'}
+[5.930768] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/ament_prefix_path.dsv\n'}
+[5.937702] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/path.sh\n'}
+[5.944847] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/path.dsv\n'}
+[5.951650] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/local_setup.bash\n'}
+[5.958524] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/local_setup.sh\n'}
+[5.965362] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/local_setup.zsh\n'}
+[5.972245] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/local_setup.dsv\n'}
+[5.979048] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/package.dsv\n'}
+[5.986114] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ament_index/resource_index/packages/ecat_msgs\n'}
+[5.993156] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.999967] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.006900] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.011606] (-) TimerEvent: {}
+[6.014867] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.022162] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.029653] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.036944] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.046065] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgsConfig.cmake\n'}
+[6.053728] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgsConfig-version.cmake\n'}
+[6.061199] (ecat_msgs) StdoutLine: {'line': b'-- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/package.xml\n'}
+[6.068704] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_generator_c.so\n'}
+[6.069001] (ecat_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_generator_c.so" to ""\n'}
+[6.069094] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.069219] (ecat_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.069287] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_c.so\n'}
+[6.069523] (ecat_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_c.so" to ""\n'}
+[6.069650] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.070088] (ecat_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.070178] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_cpp.so\n'}
+[6.070475] (ecat_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[6.091945] (ecat_msgs) StdoutLine: {'line': b"Compiling '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/__init__.py'...\n"}
+[6.095079] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_generator_cExport.cmake\n'}
+[6.095268] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.095351] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.095473] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.095647] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.095748] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.095840] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.095957] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.096044] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.096151] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.096241] (ecat_msgs) StdoutLine: {'line': b'-- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.098198] (ecat_msgs) CommandEnded: {'returncode': 0}
+[6.111706] (-) TimerEvent: {}
+[6.190951] (ecat_msgs) JobEnded: {'identifier': 'ecat_msgs', 'rc': 0}
+[6.193004] (ecat_pkg) JobStarted: {'identifier': 'ecat_pkg'}
+[6.196103] (gui_pkg) JobStarted: {'identifier': 'gui_pkg'}
+[6.200957] (input_pkg) JobStarted: {'identifier': 'input_pkg'}
+[6.206648] (safety_pkg) JobStarted: {'identifier': 'safety_pkg'}
+[6.211928] (-) TimerEvent: {}
+[6.213759] (ecat_pkg) JobProgress: {'identifier': 'ecat_pkg', 'progress': 'cmake'}
+[6.213930] (ecat_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/daeyun/Desktop/spinerobot_ws/src/ecat_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/daeyun/Desktop/spinerobot_ws/install/ecat_pkg'], 'cwd': '/home/daeyun/Desktop/spinerobot_ws/build/ecat_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'ko_KR.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('SUDO_USER', 'daeyun'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/daeyun/Desktop/spinerobot_ws/build/ecat_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy')]), 'shell': False}
+[6.216248] (gui_pkg) JobProgress: {'identifier': 'gui_pkg', 'progress': 'cmake'}
+[6.216380] (gui_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/daeyun/Desktop/spinerobot_ws/src/gui_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/daeyun/Desktop/spinerobot_ws/install/gui_pkg'], 'cwd': '/home/daeyun/Desktop/spinerobot_ws/build/gui_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'ko_KR.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('SUDO_USER', 'daeyun'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/daeyun/Desktop/spinerobot_ws/build/gui_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy')]), 'shell': False}
+[6.218490] (input_pkg) JobProgress: {'identifier': 'input_pkg', 'progress': 'cmake'}
+[6.218644] (input_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/daeyun/Desktop/spinerobot_ws/src/input_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/daeyun/Desktop/spinerobot_ws/install/input_pkg'], 'cwd': '/home/daeyun/Desktop/spinerobot_ws/build/input_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'ko_KR.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('SUDO_USER', 'daeyun'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/daeyun/Desktop/spinerobot_ws/build/input_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy')]), 'shell': False}
+[6.222826] (safety_pkg) JobProgress: {'identifier': 'safety_pkg', 'progress': 'cmake'}
+[6.223011] (safety_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/daeyun/Desktop/spinerobot_ws/src/safety_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/daeyun/Desktop/spinerobot_ws/install/safety_pkg'], 'cwd': '/home/daeyun/Desktop/spinerobot_ws/build/safety_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'ko_KR.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('SUDO_USER', 'daeyun'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/daeyun/Desktop/spinerobot_ws/build/safety_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy')]), 'shell': False}
+[6.271210] (ecat_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[6.273432] (input_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[6.273814] (gui_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[6.283627] (safety_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[6.312026] (-) TimerEvent: {}
+[6.325305] (gui_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[6.325863] (input_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[6.326012] (ecat_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[6.329907] (gui_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[6.331948] (input_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[6.332092] (ecat_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[6.334133] (safety_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[6.338077] (safety_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[6.400811] (gui_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[6.401812] (gui_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.404904] (ecat_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[6.405350] (input_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[6.406322] (ecat_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.406783] (input_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.407061] (safety_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[6.408298] (safety_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.412129] (-) TimerEvent: {}
+[6.484808] (gui_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.491646] (ecat_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.495303] (input_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.495646] (safety_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.505697] (ecat_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.506188] (ecat_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.506469] (gui_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.507106] (gui_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.508919] (input_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.509341] (input_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.510052] (ecat_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[6.511757] (gui_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[6.512191] (-) TimerEvent: {}
+[6.512397] (input_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[6.519779] (safety_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.520419] (safety_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.524743] (safety_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[6.612359] (-) TimerEvent: {}
+[6.615976] (ecat_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[6.617641] (ecat_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.618796] (gui_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[6.619753] (input_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[6.621033] (gui_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.621252] (input_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.636469] (safety_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[6.637956] (safety_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.712521] (-) TimerEvent: {}
+[6.739986] (ecat_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.748790] (input_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.750269] (gui_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.759988] (safety_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.767707] (input_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.768663] (ecat_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.768822] (input_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.769950] (ecat_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.772369] (input_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.775581] (ecat_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.778405] (safety_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.779297] (safety_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.782804] (safety_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.783133] (gui_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.784249] (gui_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.812619] (-) TimerEvent: {}
+[6.813896] (input_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.814263] (input_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.818741] (gui_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[6.826285] (safety_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.826697] (safety_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.830275] (ecat_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.830648] (ecat_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.867580] (gui_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.867862] (gui_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.912755] (-) TimerEvent: {}
+[7.013239] (-) TimerEvent: {}
+[7.113753] (-) TimerEvent: {}
+[7.148434] (input_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.165201] (safety_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.185546] (ecat_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.213964] (-) TimerEvent: {}
+[7.223009] (input_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[7.241757] (safety_pkg) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)\n'}
+[7.254289] (gui_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.270434] (ecat_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[7.314161] (-) TimerEvent: {}
+[7.334820] (gui_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[7.399762] (input_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.414346] (-) TimerEvent: {}
+[7.427245] (input_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[7.428304] (safety_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.447523] (ecat_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.457297] (safety_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[7.475074] (ecat_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[7.514575] (-) TimerEvent: {}
+[7.612326] (gui_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.614691] (-) TimerEvent: {}
+[7.636802] (gui_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[7.714908] (-) TimerEvent: {}
+[7.745435] (input_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[7.781128] (safety_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[7.792908] (ecat_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[7.815085] (-) TimerEvent: {}
+[7.846918] (input_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[7.892836] (safety_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[7.915245] (-) TimerEvent: {}
+[7.917575] (ecat_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[7.940869] (gui_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[8.015449] (-) TimerEvent: {}
+[8.049812] (gui_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[8.115690] (-) TimerEvent: {}
+[8.197847] (input_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.206587] (ecat_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.215828] (-) TimerEvent: {}
+[8.218805] (safety_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.316053] (-) TimerEvent: {}
+[8.318655] (gui_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.388894] (ecat_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.393126] (ecat_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.395970] (ecat_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.416233] (-) TimerEvent: {}
+[8.477636] (input_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.484218] (input_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.488075] (input_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.494281] (safety_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.501327] (safety_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.505420] (safety_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.508749] (gui_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.513136] (gui_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.515998] (gui_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.516307] (-) TimerEvent: {}
+[8.616834] (-) TimerEvent: {}
+[8.643820] (ecat_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.644884] (ecat_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.717013] (-) TimerEvent: {}
+[8.754232] (input_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.755293] (input_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.774808] (gui_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.775724] (gui_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.776557] (safety_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.777861] (safety_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.817217] (-) TimerEvent: {}
+[8.894199] (ecat_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[8.895046] (ecat_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[8.917394] (-) TimerEvent: {}
+[8.985037] (input_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[8.985748] (input_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[9.004146] (gui_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[9.005103] (safety_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[9.005731] (gui_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[9.006065] (safety_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[9.017584] (-) TimerEvent: {}
+[9.070559] (ecat_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[9.071184] (ecat_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[9.117846] (-) TimerEvent: {}
+[9.169290] (input_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[9.169868] (input_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[9.177343] (gui_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[9.177952] (gui_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[9.182083] (safety_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[9.182864] (safety_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[9.218053] (-) TimerEvent: {}
+[9.292223] (ecat_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[9.296994] (ecat_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.318222] (-) TimerEvent: {}
+[9.405668] (gui_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[9.406473] (input_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[9.409625] (gui_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.410737] (input_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.424393] (-) TimerEvent: {}
+[9.452016] (safety_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[9.453684] (safety_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.524598] (-) TimerEvent: {}
+[9.625390] (-) TimerEvent: {}
+[9.726268] (-) TimerEvent: {}
+[9.827192] (-) TimerEvent: {}
+[9.930173] (-) TimerEvent: {}
+[10.031090] (-) TimerEvent: {}
+[10.110814] (ecat_pkg) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)\n'}
+[10.131299] (-) TimerEvent: {}
+[10.155135] (gui_pkg) StdoutLine: {'line': b'-- Found ecat_msgs: 0.0.1 (/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake)\n'}
+[10.168382] (input_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[10.231577] (-) TimerEvent: {}
+[10.258173] (ecat_pkg) StdoutLine: {'line': b'-- Found rttest: 0.9.0 (/opt/ros/foxy/share/rttest/cmake)\n'}
+[10.274618] (ecat_pkg) StdoutLine: {'line': b'-- Found tlsf_cpp: 0.9.0 (/opt/ros/foxy/share/tlsf_cpp/cmake)\n'}
+[10.289676] (gui_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[10.295410] (ecat_pkg) StdoutLine: {'line': b'-- Found ecat_msgs: 0.0.1 (/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake)\n'}
+[10.311246] (safety_pkg) StdoutLine: {'line': b'-- Found ecat_msgs: 0.0.1 (/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake)\n'}
+[10.333335] (-) TimerEvent: {}
+[10.434278] (-) TimerEvent: {}
+[10.454292] (safety_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[10.510527] (ecat_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[10.534402] (-) TimerEvent: {}
+[10.635001] (-) TimerEvent: {}
+[10.709337] (input_pkg) StdoutLine: {'line': b'-- Found ecat_msgs: 0.0.1 (/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake)\n'}
+[10.735215] (-) TimerEvent: {}
+[10.784322] (gui_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[10.835406] (-) TimerEvent: {}
+[10.878652] (safety_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.928607] (input_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.935588] (-) TimerEvent: {}
+[11.036260] (-) TimerEvent: {}
+[11.107298] (gui_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.136452] (-) TimerEvent: {}
+[11.170346] (safety_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.175200] (safety_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.176014] (safety_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/daeyun/Desktop/spinerobot_ws/src/safety_pkg/include/safety_pkg>\n'}
+[11.176370] (safety_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.179192] (safety_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[11.179682] (safety_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[11.181923] (safety_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.186120] (safety_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.186725] (safety_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.187983] (safety_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.206241] (gui_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[11.206872] (safety_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.208834] (gui_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/daeyun/Desktop/spinerobot_ws/build/gui_pkg\n'}
+[11.230583] (gui_pkg) CommandEnded: {'returncode': 0}
+[11.232172] (gui_pkg) JobProgress: {'identifier': 'gui_pkg', 'progress': 'build'}
+[11.239104] (gui_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daeyun/Desktop/spinerobot_ws/build/gui_pkg', '--', '-j8', '-l8'], 'cwd': '/home/daeyun/Desktop/spinerobot_ws/build/gui_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'ko_KR.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('SUDO_USER', 'daeyun'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/daeyun/Desktop/spinerobot_ws/build/gui_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy')]), 'shell': False}
+[11.243355] (-) TimerEvent: {}
+[11.252649] (input_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.256697] (input_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.257341] (input_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/daeyun/Desktop/spinerobot_ws/src/input_pkg/include/input_pkg;$<BUILD_INTERFACE:/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/include>\n'}
+[11.257678] (input_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.260717] (input_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[11.261192] (input_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[11.262983] (input_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.265939] (input_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.266362] (input_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.268039] (input_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.281921] (input_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.283770] (ecat_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.312709] (input_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[11.317843] (input_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/daeyun/Desktop/spinerobot_ws/build/input_pkg\n'}
+[11.322826] (ecat_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[11.328253] (ecat_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/daeyun/Desktop/spinerobot_ws/build/ecat_pkg\n'}
+[11.340552] (input_pkg) CommandEnded: {'returncode': 0}
+[11.343012] (input_pkg) JobProgress: {'identifier': 'input_pkg', 'progress': 'build'}
+[11.344338] (input_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daeyun/Desktop/spinerobot_ws/build/input_pkg', '--', '-j8', '-l8'], 'cwd': '/home/daeyun/Desktop/spinerobot_ws/build/input_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'ko_KR.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('SUDO_USER', 'daeyun'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/daeyun/Desktop/spinerobot_ws/build/input_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy')]), 'shell': False}
+[11.353462] (-) TimerEvent: {}
+[11.358257] (ecat_pkg) CommandEnded: {'returncode': 0}
+[11.360511] (ecat_pkg) JobProgress: {'identifier': 'ecat_pkg', 'progress': 'build'}
+[11.361714] (ecat_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daeyun/Desktop/spinerobot_ws/build/ecat_pkg', '--', '-j8', '-l8'], 'cwd': '/home/daeyun/Desktop/spinerobot_ws/build/ecat_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'ko_KR.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('SUDO_USER', 'daeyun'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/daeyun/Desktop/spinerobot_ws/build/ecat_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy')]), 'shell': False}
+[11.391290] (gui_pkg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating include/gui_pkg/moc_video_capture.cpp\x1b[0m\n'}
+[11.396202] (gui_pkg) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating qrc_resources.cpp\x1b[0m\n'}
+[11.397069] (gui_pkg) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating ui_controlui.h\x1b[0m\n'}
+[11.413609] (gui_pkg) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating ui_main_window.h\x1b[0m\n'}
+[11.416663] (gui_pkg) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating ui_endoscope_viewer.h\x1b[0m\n'}
+[11.431738] (gui_pkg) StderrLine: {'line': b"RCC: Warning: No resources in '/home/daeyun/Desktop/spinerobot_ws/src/gui_pkg/resources/resources.qrc'.\n"}
+[11.433020] (gui_pkg) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating include/gui_pkg/moc_controlui.cpp\x1b[0m\n'}
+[11.434681] (gui_pkg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating ui_mainwindow.h\x1b[0m\n'}
+[11.436561] (gui_pkg) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating include/gui_pkg/moc_endoscope_viewer.cpp\x1b[0m\n'}
+[11.453635] (-) TimerEvent: {}
+[11.480391] (gui_pkg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating include/gui_pkg/moc_gui_node.cpp\x1b[0m\n'}
+[11.491137] (gui_pkg) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating include/gui_pkg/moc_gui_globals.cpp\x1b[0m\n'}
+[11.492119] (gui_pkg) StdoutLine: {'line': b'[ 39%] \x1b[34m\x1b[1mGenerating include/gui_pkg/moc_main_window.cpp\x1b[0m\n'}
+[11.492677] (gui_pkg) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating include/gui_pkg/moc_timing.cpp\x1b[0m\n'}
+[11.499280] (gui_pkg) StderrLine: {'line': b'/home/daeyun/Desktop/spinerobot_ws/src/gui_pkg/include/gui_pkg/gui_node.hpp:0: Note: No relevant classes found. No output generated.\n'}
+[11.502131] (gui_pkg) StderrLine: {'line': b'/home/daeyun/Desktop/spinerobot_ws/src/gui_pkg/include/gui_pkg/gui_globals.hpp:0: Note: No relevant classes found. No output generated.\n'}
+[11.506607] (gui_pkg) StderrLine: {'line': b'/home/daeyun/Desktop/spinerobot_ws/src/gui_pkg/include/gui_pkg/timing.hpp:0: Note: No relevant classes found. No output generated.\n'}
+[11.535070] (gui_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gui_node\x1b[0m\n'}
+[11.536117] (input_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hapticNode\x1b[0m\n'}
+[11.548114] (ecat_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ecat_node\x1b[0m\n'}
+[11.553774] (-) TimerEvent: {}
+[11.640212] (safety_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[11.644385] (safety_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/daeyun/Desktop/spinerobot_ws/build/safety_pkg\n'}
+[11.653927] (-) TimerEvent: {}
+[11.674930] (safety_pkg) CommandEnded: {'returncode': 0}
+[11.682746] (safety_pkg) JobProgress: {'identifier': 'safety_pkg', 'progress': 'build'}
+[11.683117] (safety_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daeyun/Desktop/spinerobot_ws/build/safety_pkg', '--', '-j8', '-l8'], 'cwd': '/home/daeyun/Desktop/spinerobot_ws/build/safety_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'ko_KR.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('SUDO_USER', 'daeyun'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/daeyun/Desktop/spinerobot_ws/build/safety_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy')]), 'shell': False}
+[11.684460] (input_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/hapticNode.dir/src/TCPcomm.cpp.o\x1b[0m\n'}
+[11.684895] (input_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/hapticNode.dir/src/hapticNode.cpp.o\x1b[0m\n'}
+[11.754140] (-) TimerEvent: {}
+[11.766496] (ecat_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/ecat_node.dir/src/main.cpp.o\x1b[0m\n'}
+[11.773292] (ecat_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ecat_node.dir/src/ecat_slave.cpp.o\x1b[0m\n'}
+[11.790285] (ecat_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ecat_node.dir/src/timing.cpp.o\x1b[0m\n'}
+[11.792940] (ecat_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ecat_node.dir/src/ecat_lifecycle.cpp.o\x1b[0m\n'}
+[11.796723] (ecat_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/ecat_node.dir/src/ecat_node.cpp.o\x1b[0m\n'}
+[11.854318] (-) TimerEvent: {}
+[11.873170] (safety_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target safety_node\x1b[0m\n'}
+[11.954574] (-) TimerEvent: {}
+[12.057803] (-) TimerEvent: {}
+[12.159076] (-) TimerEvent: {}
+[12.259917] (-) TimerEvent: {}
+[12.280669] (safety_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/safety_node.dir/src/safety_node.cpp.o\x1b[0m\n'}
+[12.360103] (-) TimerEvent: {}
+[12.460919] (-) TimerEvent: {}
+[12.561779] (-) TimerEvent: {}
+[12.617245] (gui_pkg) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/src/endoscope_viewer.cpp.o\x1b[0m\n'}
+[12.630111] (gui_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/src/controlui.cpp.o\x1b[0m\n'}
+[12.661977] (-) TimerEvent: {}
+[12.663742] (gui_pkg) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/src/main.cpp.o\x1b[0m\n'}
+[12.670992] (gui_pkg) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/src/main_window.cpp.o\x1b[0m\n'}
+[12.677844] (input_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:28\x1b[m\x1b[K:\n'}
+[12.678417] (input_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/include/input_pkg/hapticNode.hpp:33:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kecat_globals.hpp: No such file or directory\n'}
+[12.678813] (input_pkg) StderrLine: {'line': b'   33 | #include \x1b[01;31m\x1b[K"ecat_globals.hpp"\x1b[m\x1b[K\n'}
+[12.679125] (input_pkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.679412] (input_pkg) StderrLine: {'line': b'compilation terminated.\n'}
+[12.687499] (gui_pkg) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/src/timing.cpp.o\x1b[0m\n'}
+[12.690084] (gui_pkg) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/src/gui_node.cpp.o\x1b[0m\n'}
+[12.706699] (gui_pkg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/src/video_capture.cpp.o\x1b[0m\n'}
+[12.717078] (input_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/hapticNode.dir/build.make:63: CMakeFiles/hapticNode.dir/src/hapticNode.cpp.o] Error 1\n'}
+[12.717716] (input_pkg) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[12.762164] (-) TimerEvent: {}
+[12.785442] (gui_pkg) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/qrc_resources.cpp.o\x1b[0m\n'}
+[12.862373] (-) TimerEvent: {}
+[12.963703] (-) TimerEvent: {}
+[13.064540] (-) TimerEvent: {}
+[13.124814] (gui_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/include/gui_pkg/moc_controlui.cpp.o\x1b[0m\n'}
+[13.164748] (-) TimerEvent: {}
+[13.266059] (-) TimerEvent: {}
+[13.367417] (-) TimerEvent: {}
+[13.469403] (-) TimerEvent: {}
+[13.522305] (input_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTCPCommunication::TCPServer::TCPServer(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.522952] (input_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:31:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Kssize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[13.524900] (input_pkg) StderrLine: {'line': b'   31 |     printf("Size of Buffer(server) = \x1b[01;35m\x1b[K%d\x1b[m\x1b[K\\n", \x1b[32m\x1b[Kbuffer_size_\x1b[m\x1b[K);\n'}
+[13.525265] (input_pkg) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~^\x1b[m\x1b[K     \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.525615] (input_pkg) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K|\x1b[m\x1b[K     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[13.525954] (input_pkg) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[Kint\x1b[m\x1b[K   \x1b[32m\x1b[Kssize_t {aka long int}\x1b[m\x1b[K\n'}
+[13.526277] (input_pkg) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[13.526614] (input_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTCPCommunication::TCPServer::TCPServer(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.526960] (input_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:44:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Kssize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[13.527288] (input_pkg) StderrLine: {'line': b'   44 |     printf("Size of Buffer(server) = \x1b[01;35m\x1b[K%d\x1b[m\x1b[K\\n", \x1b[32m\x1b[Kbuffer_size_\x1b[m\x1b[K);\n'}
+[13.527623] (input_pkg) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~^\x1b[m\x1b[K     \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.527939] (input_pkg) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K|\x1b[m\x1b[K     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[13.528245] (input_pkg) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[Kint\x1b[m\x1b[K   \x1b[32m\x1b[Kssize_t {aka long int}\x1b[m\x1b[K\n'}
+[13.528577] (input_pkg) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[13.528892] (input_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTCPCommunication::TCPServer::TCPServer(int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.529232] (input_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:57:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Kssize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[13.529587] (input_pkg) StderrLine: {'line': b'   57 |     printf("Size of Buffer(server) = \x1b[01;35m\x1b[K%d\x1b[m\x1b[K\\n", \x1b[32m\x1b[Kbuffer_size_\x1b[m\x1b[K);\n'}
+[13.529936] (input_pkg) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~^\x1b[m\x1b[K     \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.530235] (input_pkg) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K|\x1b[m\x1b[K     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[13.530617] (input_pkg) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[Kint\x1b[m\x1b[K   \x1b[32m\x1b[Kssize_t {aka long int}\x1b[m\x1b[K\n'}
+[13.530925] (input_pkg) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[13.538134] (input_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTCPCommunication::TCPClient::TCPClient(const char*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.541086] (input_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:221:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[13.541459] (input_pkg) StderrLine: {'line': b'  221 |     printf("IP address : \x1b[01;35m\x1b[K%s\x1b[m\x1b[K", IP_address_);\n'}
+[13.541792] (input_pkg) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~^\x1b[m\x1b[K\n'}
+[13.542064] (input_pkg) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K|\x1b[m\x1b[K\n'}
+[13.542495] (input_pkg) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[13.542812] (input_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:223:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Kssize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[13.543163] (input_pkg) StderrLine: {'line': b'  223 |     printf("Size of Buffer(client, DEFAULT) = \x1b[01;35m\x1b[K%d\x1b[m\x1b[K\\n", \x1b[32m\x1b[Kbuffer_size_\x1b[m\x1b[K);\n'}
+[13.543442] (input_pkg) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~^\x1b[m\x1b[K     \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.543952] (input_pkg) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K|\x1b[m\x1b[K     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[13.544221] (input_pkg) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[Kint\x1b[m\x1b[K   \x1b[32m\x1b[Kssize_t {aka long int}\x1b[m\x1b[K\n'}
+[13.544515] (input_pkg) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[13.544796] (input_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTCPCommunication::TCPClient::TCPClient(const char*, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.545087] (input_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:234:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[13.545373] (input_pkg) StderrLine: {'line': b'  234 |     printf("IP address : \x1b[01;35m\x1b[K%s\x1b[m\x1b[K", IP_address_);\n'}
+[13.545668] (input_pkg) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~^\x1b[m\x1b[K\n'}
+[13.545938] (input_pkg) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K|\x1b[m\x1b[K\n'}
+[13.546209] (input_pkg) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[13.546475] (input_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:236:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 2 has type \xe2\x80\x98\x1b[01m\x1b[Kssize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[13.546880] (input_pkg) StderrLine: {'line': b'  236 |     printf("Size of Buffer(client) = \x1b[01;35m\x1b[K%d\x1b[m\x1b[K\\n", \x1b[32m\x1b[Kbuffer_size_\x1b[m\x1b[K);\n'}
+[13.547174] (input_pkg) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~^\x1b[m\x1b[K     \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.547475] (input_pkg) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K|\x1b[m\x1b[K     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[13.547869] (input_pkg) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[Kint\x1b[m\x1b[K   \x1b[32m\x1b[Kssize_t {aka long int}\x1b[m\x1b[K\n'}
+[13.548181] (input_pkg) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[13.569629] (-) TimerEvent: {}
+[13.670430] (-) TimerEvent: {}
+[13.771293] (-) TimerEvent: {}
+[13.872188] (-) TimerEvent: {}
+[13.973609] (-) TimerEvent: {}
+[14.074438] (-) TimerEvent: {}
+[14.160953] (input_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/hapticNode.dir/all] Error 2\n'}
+[14.164766] (input_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[14.183825] (input_pkg) CommandEnded: {'returncode': 2}
+[14.188217] (-) TimerEvent: {}
+[14.290212] (-) TimerEvent: {}
+[14.391276] (-) TimerEvent: {}
+[14.492712] (-) TimerEvent: {}
+[14.593789] (-) TimerEvent: {}
+[14.694892] (-) TimerEvent: {}
+[14.797727] (-) TimerEvent: {}
+[14.809726] (input_pkg) JobEnded: {'identifier': 'input_pkg', 'rc': 2}
+[14.897931] (-) TimerEvent: {}
+[14.998963] (-) TimerEvent: {}
+[15.100060] (-) TimerEvent: {}
+[15.201162] (-) TimerEvent: {}
+[15.302223] (-) TimerEvent: {}
+[15.403330] (-) TimerEvent: {}
+[15.512372] (-) TimerEvent: {}
+[15.619623] (-) TimerEvent: {}
+[15.720399] (-) TimerEvent: {}
+[15.822619] (-) TimerEvent: {}
+[15.923401] (-) TimerEvent: {}
+[16.024472] (-) TimerEvent: {}
+[16.125377] (-) TimerEvent: {}
+[16.226788] (-) TimerEvent: {}
+[16.342662] (-) TimerEvent: {}
+[16.450249] (-) TimerEvent: {}
+[16.551225] (-) TimerEvent: {}
+[16.652216] (-) TimerEvent: {}
+[16.753235] (-) TimerEvent: {}
+[16.854239] (-) TimerEvent: {}
+[16.955264] (-) TimerEvent: {}
+[17.056088] (-) TimerEvent: {}
+[17.163609] (-) TimerEvent: {}
+[17.264372] (-) TimerEvent: {}
+[17.378261] (-) TimerEvent: {}
+[17.482069] (-) TimerEvent: {}
+[17.583007] (-) TimerEvent: {}
+[17.684123] (-) TimerEvent: {}
+[17.784861] (-) TimerEvent: {}
+[17.885631] (-) TimerEvent: {}
+[17.961180] (gui_pkg) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/include/gui_pkg/moc_endoscope_viewer.cpp.o\x1b[0m\n'}
+[17.985808] (-) TimerEvent: {}
+[18.086793] (-) TimerEvent: {}
+[18.187748] (-) TimerEvent: {}
+[18.295082] (-) TimerEvent: {}
+[18.396029] (-) TimerEvent: {}
+[18.497021] (-) TimerEvent: {}
+[18.598011] (-) TimerEvent: {}
+[18.698807] (-) TimerEvent: {}
+[18.799565] (-) TimerEvent: {}
+[18.900527] (-) TimerEvent: {}
+[19.001404] (-) TimerEvent: {}
+[19.102390] (-) TimerEvent: {}
+[19.203273] (-) TimerEvent: {}
+[19.304250] (-) TimerEvent: {}
+[19.405184] (-) TimerEvent: {}
+[19.506098] (-) TimerEvent: {}
+[19.607023] (-) TimerEvent: {}
+[19.707994] (-) TimerEvent: {}
+[19.808771] (-) TimerEvent: {}
+[19.909502] (-) TimerEvent: {}
+[20.009236] (gui_pkg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/include/gui_pkg/moc_gui_globals.cpp.o\x1b[0m\n'}
+[20.009762] (-) TimerEvent: {}
+[20.110564] (-) TimerEvent: {}
+[20.211240] (-) TimerEvent: {}
+[20.229583] (gui_pkg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/include/gui_pkg/moc_gui_node.cpp.o\x1b[0m\n'}
+[20.311430] (-) TimerEvent: {}
+[20.412415] (-) TimerEvent: {}
+[20.438404] (gui_pkg) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/include/gui_pkg/moc_main_window.cpp.o\x1b[0m\n'}
+[20.445429] (gui_pkg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/include/gui_pkg/moc_timing.cpp.o\x1b[0m\n'}
+[20.512699] (-) TimerEvent: {}
+[20.613382] (-) TimerEvent: {}
+[20.637394] (gui_pkg) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/gui_node.dir/include/gui_pkg/moc_video_capture.cpp.o\x1b[0m\n'}
+[20.713563] (-) TimerEvent: {}
+[20.814256] (-) TimerEvent: {}
+[20.915195] (-) TimerEvent: {}
+[21.016084] (-) TimerEvent: {}
+[21.116975] (-) TimerEvent: {}
+[21.217890] (-) TimerEvent: {}
+[21.318808] (-) TimerEvent: {}
+[21.419655] (-) TimerEvent: {}
+[21.520382] (-) TimerEvent: {}
+[21.621128] (-) TimerEvent: {}
+[21.721874] (-) TimerEvent: {}
+[21.822849] (-) TimerEvent: {}
+[21.923529] (-) TimerEvent: {}
+[22.024213] (-) TimerEvent: {}
+[22.124921] (-) TimerEvent: {}
+[22.225654] (-) TimerEvent: {}
+[22.326367] (-) TimerEvent: {}
+[22.427111] (-) TimerEvent: {}
+[22.527841] (-) TimerEvent: {}
+[22.628796] (-) TimerEvent: {}
+[22.729751] (-) TimerEvent: {}
+[22.830711] (-) TimerEvent: {}
+[22.931455] (-) TimerEvent: {}
+[22.945869] (safety_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/safety_pkg/src/safety_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SafetyNode::HandleLifecycleNodeCallbacks(ecat_msgs::msg::DataReceived_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.946449] (safety_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daeyun/Desktop/spinerobot_ws/src/safety_pkg/src/safety_node.cpp:124:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[22.946811] (safety_pkg) StderrLine: {'line': b'  124 |     for(int i=0; \x1b[01;35m\x1b[Ki < lifecycle_node_data_.slave_com_status.size()\x1b[m\x1b[K; i++){\n'}
+[22.947071] (safety_pkg) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.031639] (-) TimerEvent: {}
+[23.132350] (-) TimerEvent: {}
+[23.233064] (-) TimerEvent: {}
+[23.333816] (-) TimerEvent: {}
+[23.435342] (-) TimerEvent: {}
+[23.545629] (-) TimerEvent: {}
+[23.649985] (-) TimerEvent: {}
+[23.750961] (-) TimerEvent: {}
+[23.851903] (-) TimerEvent: {}
+[23.952871] (-) TimerEvent: {}
+[24.053813] (-) TimerEvent: {}
+[24.154569] (-) TimerEvent: {}
+[24.255249] (-) TimerEvent: {}
+[24.357737] (-) TimerEvent: {}
+[24.460044] (-) TimerEvent: {}
+[24.560991] (-) TimerEvent: {}
+[24.661626] (-) TimerEvent: {}
+[24.762370] (-) TimerEvent: {}
+[24.863081] (-) TimerEvent: {}
+[24.964598] (-) TimerEvent: {}
+[25.067869] (-) TimerEvent: {}
+[25.168904] (-) TimerEvent: {}
+[25.270636] (-) TimerEvent: {}
+[25.375639] (-) TimerEvent: {}
+[25.476431] (-) TimerEvent: {}
+[25.577127] (-) TimerEvent: {}
+[25.681612] (-) TimerEvent: {}
+[25.782278] (-) TimerEvent: {}
+[25.883314] (-) TimerEvent: {}
+[25.983991] (-) TimerEvent: {}
+[26.084526] (-) TimerEvent: {}
+[26.185204] (-) TimerEvent: {}
+[26.286152] (-) TimerEvent: {}
+[26.387083] (-) TimerEvent: {}
+[26.488019] (-) TimerEvent: {}
+[26.588951] (-) TimerEvent: {}
+[26.690026] (-) TimerEvent: {}
+[26.790722] (-) TimerEvent: {}
+[26.891386] (-) TimerEvent: {}
+[26.992121] (-) TimerEvent: {}
+[27.092848] (-) TimerEvent: {}
+[27.198456] (-) TimerEvent: {}
+[27.299358] (-) TimerEvent: {}
+[27.400320] (-) TimerEvent: {}
+[27.508695] (-) TimerEvent: {}
+[27.611325] (-) TimerEvent: {}
+[27.712291] (-) TimerEvent: {}
+[27.813302] (-) TimerEvent: {}
+[27.913987] (-) TimerEvent: {}
+[28.014683] (-) TimerEvent: {}
+[28.115383] (-) TimerEvent: {}
+[28.216113] (-) TimerEvent: {}
+[28.320655] (-) TimerEvent: {}
+[28.421595] (-) TimerEvent: {}
+[28.522524] (-) TimerEvent: {}
+[28.623410] (-) TimerEvent: {}
+[28.724338] (-) TimerEvent: {}
+[28.825240] (-) TimerEvent: {}
+[28.931619] (-) TimerEvent: {}
+[29.038059] (-) TimerEvent: {}
+[29.138798] (-) TimerEvent: {}
+[29.239519] (-) TimerEvent: {}
+[29.340224] (-) TimerEvent: {}
+[29.441649] (-) TimerEvent: {}
+[29.542344] (-) TimerEvent: {}
+[29.643052] (-) TimerEvent: {}
+[29.744004] (-) TimerEvent: {}
+[29.844917] (-) TimerEvent: {}
+[29.945859] (-) TimerEvent: {}
+[30.046821] (-) TimerEvent: {}
+[30.158385] (-) TimerEvent: {}
+[30.259737] (-) TimerEvent: {}
+[30.360436] (-) TimerEvent: {}
+[30.461189] (-) TimerEvent: {}
+[30.564763] (-) TimerEvent: {}
+[30.665446] (-) TimerEvent: {}
+[30.769626] (-) TimerEvent: {}
+[30.870891] (-) TimerEvent: {}
+[30.991653] (-) TimerEvent: {}
+[31.104379] (-) TimerEvent: {}
+[31.205132] (-) TimerEvent: {}
+[31.306097] (-) TimerEvent: {}
+[31.406826] (-) TimerEvent: {}
+[31.507582] (-) TimerEvent: {}
+[31.608397] (-) TimerEvent: {}
+[31.710774] (-) TimerEvent: {}
+[31.816619] (-) TimerEvent: {}
+[31.924626] (-) TimerEvent: {}
+[32.032339] (-) TimerEvent: {}
+[32.133036] (-) TimerEvent: {}
+[32.233733] (-) TimerEvent: {}
+[32.334393] (-) TimerEvent: {}
+[32.435111] (-) TimerEvent: {}
+[32.535833] (-) TimerEvent: {}
+[32.639608] (-) TimerEvent: {}
+[32.743616] (-) TimerEvent: {}
+[32.845620] (-) TimerEvent: {}
+[32.950625] (-) TimerEvent: {}
+[33.051317] (-) TimerEvent: {}
+[33.152069] (-) TimerEvent: {}
+[33.252787] (-) TimerEvent: {}
+[33.353499] (-) TimerEvent: {}
+[33.454424] (-) TimerEvent: {}
+[33.555135] (-) TimerEvent: {}
+[33.655861] (-) TimerEvent: {}
+[33.756541] (-) TimerEvent: {}
+[33.857215] (-) TimerEvent: {}
+[33.957942] (-) TimerEvent: {}
+[34.058620] (-) TimerEvent: {}
+[34.159322] (-) TimerEvent: {}
+[34.260277] (-) TimerEvent: {}
+[34.361010] (-) TimerEvent: {}
+[34.461722] (-) TimerEvent: {}
+[34.562473] (-) TimerEvent: {}
+[34.669615] (-) TimerEvent: {}
+[34.770543] (-) TimerEvent: {}
+[34.871424] (-) TimerEvent: {}
+[34.972285] (-) TimerEvent: {}
+[35.073180] (-) TimerEvent: {}
+[35.174092] (-) TimerEvent: {}
+[35.276620] (-) TimerEvent: {}
+[35.377530] (-) TimerEvent: {}
+[35.478181] (-) TimerEvent: {}
+[35.579073] (-) TimerEvent: {}
+[35.679937] (-) TimerEvent: {}
+[35.780608] (-) TimerEvent: {}
+[35.881251] (-) TimerEvent: {}
+[35.981926] (-) TimerEvent: {}
+[36.082836] (-) TimerEvent: {}
+[36.183542] (-) TimerEvent: {}
+[36.284533] (-) TimerEvent: {}
+[36.385191] (-) TimerEvent: {}
+[36.485877] (-) TimerEvent: {}
+[36.586570] (-) TimerEvent: {}
+[36.689928] (-) TimerEvent: {}
+[36.791199] (-) TimerEvent: {}
+[36.892751] (-) TimerEvent: {}
+[36.993665] (-) TimerEvent: {}
+[37.094551] (-) TimerEvent: {}
+[37.195227] (-) TimerEvent: {}
+[37.295920] (-) TimerEvent: {}
+[37.396591] (-) TimerEvent: {}
+[37.497293] (-) TimerEvent: {}
+[37.598250] (-) TimerEvent: {}
+[37.699223] (-) TimerEvent: {}
+[37.800654] (-) TimerEvent: {}
+[37.901322] (-) TimerEvent: {}
+[38.002091] (-) TimerEvent: {}
+[38.102767] (-) TimerEvent: {}
+[38.203425] (-) TimerEvent: {}
+[38.304074] (-) TimerEvent: {}
+[38.404748] (-) TimerEvent: {}
+[38.505437] (-) TimerEvent: {}
+[38.606171] (-) TimerEvent: {}
+[38.706891] (-) TimerEvent: {}
+[38.807592] (-) TimerEvent: {}
+[38.908260] (-) TimerEvent: {}
+[39.008948] (-) TimerEvent: {}
+[39.109673] (-) TimerEvent: {}
+[39.210397] (-) TimerEvent: {}
+[39.311082] (-) TimerEvent: {}
+[39.415311] (-) TimerEvent: {}
+[39.516686] (-) TimerEvent: {}
+[39.617354] (-) TimerEvent: {}
+[39.718237] (-) TimerEvent: {}
+[39.818952] (-) TimerEvent: {}
+[39.919624] (-) TimerEvent: {}
+[40.020277] (-) TimerEvent: {}
+[40.121169] (-) TimerEvent: {}
+[40.222274] (-) TimerEvent: {}
+[40.324110] (-) TimerEvent: {}
+[40.424842] (-) TimerEvent: {}
+[40.525602] (-) TimerEvent: {}
+[40.626339] (-) TimerEvent: {}
+[40.727052] (-) TimerEvent: {}
+[40.827785] (-) TimerEvent: {}
+[40.928432] (-) TimerEvent: {}
+[41.029767] (-) TimerEvent: {}
+[41.130753] (-) TimerEvent: {}
+[41.231892] (-) TimerEvent: {}
+[41.332583] (-) TimerEvent: {}
+[41.433236] (-) TimerEvent: {}
+[41.533937] (-) TimerEvent: {}
+[41.634579] (-) TimerEvent: {}
+[41.735225] (-) TimerEvent: {}
+[41.839606] (-) TimerEvent: {}
+[41.940215] (-) TimerEvent: {}
+[42.040865] (-) TimerEvent: {}
+[42.141618] (-) TimerEvent: {}
+[42.242512] (-) TimerEvent: {}
+[42.343141] (-) TimerEvent: {}
+[42.443991] (-) TimerEvent: {}
+[42.544658] (-) TimerEvent: {}
+[42.645321] (-) TimerEvent: {}
+[42.748090] (-) TimerEvent: {}
+[42.852646] (-) TimerEvent: {}
+[42.956620] (-) TimerEvent: {}
+[43.057277] (-) TimerEvent: {}
+[43.157942] (-) TimerEvent: {}
+[43.258687] (-) TimerEvent: {}
+[43.362278] (-) TimerEvent: {}
+[43.462971] (-) TimerEvent: {}
+[43.563638] (-) TimerEvent: {}
+[43.664291] (-) TimerEvent: {}
+[43.765643] (-) TimerEvent: {}
+[43.866321] (-) TimerEvent: {}
+[43.967273] (-) TimerEvent: {}
+[44.068571] (-) TimerEvent: {}
+[44.169229] (-) TimerEvent: {}
+[44.269891] (-) TimerEvent: {}
+[44.370550] (-) TimerEvent: {}
+[44.471215] (-) TimerEvent: {}
+[44.571895] (-) TimerEvent: {}
+[44.672589] (-) TimerEvent: {}
+[44.773418] (-) TimerEvent: {}
+[44.874131] (-) TimerEvent: {}
+[44.974911] (-) TimerEvent: {}
+[45.075609] (-) TimerEvent: {}
+[45.176643] (-) TimerEvent: {}
+[45.277308] (-) TimerEvent: {}
+[45.377987] (-) TimerEvent: {}
+[45.478624] (-) TimerEvent: {}
+[45.579277] (-) TimerEvent: {}
+[45.679996] (-) TimerEvent: {}
+[45.780663] (-) TimerEvent: {}
+[45.881333] (-) TimerEvent: {}
+[45.982053] (-) TimerEvent: {}
+[46.082881] (-) TimerEvent: {}
+[46.183570] (-) TimerEvent: {}
+[46.284436] (-) TimerEvent: {}
+[46.385127] (-) TimerEvent: {}
+[46.485866] (-) TimerEvent: {}
+[46.586554] (-) TimerEvent: {}
+[46.687257] (-) TimerEvent: {}
+[46.788080] (-) TimerEvent: {}
+[46.888628] (-) TimerEvent: {}
+[46.989161] (-) TimerEvent: {}
+[47.089821] (-) TimerEvent: {}
+[47.190528] (-) TimerEvent: {}
+[47.291190] (-) TimerEvent: {}
+[47.391831] (-) TimerEvent: {}
+[47.492371] (-) TimerEvent: {}
+[47.593066] (-) TimerEvent: {}
+[47.693731] (-) TimerEvent: {}
+[47.794361] (-) TimerEvent: {}
+[47.895057] (-) TimerEvent: {}
+[47.995748] (-) TimerEvent: {}
+[48.096361] (-) TimerEvent: {}
+[48.196977] (-) TimerEvent: {}
+[48.297600] (-) TimerEvent: {}
+[48.398089] (-) TimerEvent: {}
+[48.498547] (-) TimerEvent: {}
+[48.598976] (-) TimerEvent: {}
+[48.699389] (-) TimerEvent: {}
+[48.799829] (-) TimerEvent: {}
+[48.900255] (-) TimerEvent: {}
+[49.001621] (-) TimerEvent: {}
+[49.102162] (-) TimerEvent: {}
+[49.202706] (-) TimerEvent: {}
+[49.303122] (-) TimerEvent: {}
+[49.403544] (-) TimerEvent: {}
+[49.503945] (-) TimerEvent: {}
+[49.604385] (-) TimerEvent: {}
+[49.704834] (-) TimerEvent: {}
+[49.805244] (-) TimerEvent: {}
+[49.905679] (-) TimerEvent: {}
+[50.006087] (-) TimerEvent: {}
+[50.106516] (-) TimerEvent: {}
+[50.206920] (-) TimerEvent: {}
+[50.307353] (-) TimerEvent: {}
+[50.374777] (safety_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable safety_node\x1b[0m\n'}
+[50.407505] (-) TimerEvent: {}
+[50.507907] (-) TimerEvent: {}
+[50.608291] (-) TimerEvent: {}
+[50.708710] (-) TimerEvent: {}
+[50.809125] (-) TimerEvent: {}
+[50.909581] (-) TimerEvent: {}
+[51.010032] (-) TimerEvent: {}
+[51.110520] (-) TimerEvent: {}
+[51.211127] (-) TimerEvent: {}
+[51.311710] (-) TimerEvent: {}
+[51.412303] (-) TimerEvent: {}
+[51.512882] (-) TimerEvent: {}
+[51.613576] (-) TimerEvent: {}
+[51.646622] (gui_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gui_node\x1b[0m\n'}
+[51.713748] (-) TimerEvent: {}
+[51.814293] (-) TimerEvent: {}
+[51.914874] (-) TimerEvent: {}
+[52.015445] (-) TimerEvent: {}
+[52.115929] (-) TimerEvent: {}
+[52.216540] (-) TimerEvent: {}
+[52.317174] (-) TimerEvent: {}
+[52.319546] (safety_pkg) StdoutLine: {'line': b'[100%] Built target safety_node\n'}
+[52.344978] (safety_pkg) JobEnded: {'identifier': 'safety_pkg', 'rc': 'SIGINT'}
+[52.417345] (-) TimerEvent: {}
+[52.517954] (-) TimerEvent: {}
+[52.618607] (-) TimerEvent: {}
+[52.719079] (-) TimerEvent: {}
+[52.819695] (-) TimerEvent: {}
+[52.920239] (-) TimerEvent: {}
+[53.020832] (-) TimerEvent: {}
+[53.121420] (-) TimerEvent: {}
+[53.152749] (ecat_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ecat_node\x1b[0m\n'}
+[53.221632] (-) TimerEvent: {}
+[53.322277] (-) TimerEvent: {}
+[53.422944] (-) TimerEvent: {}
+[53.523597] (-) TimerEvent: {}
+[53.624191] (-) TimerEvent: {}
+[53.724790] (-) TimerEvent: {}
+[53.825287] (-) TimerEvent: {}
+[53.925794] (-) TimerEvent: {}
+[54.026364] (-) TimerEvent: {}
+[54.129726] (-) TimerEvent: {}
+[54.230345] (-) TimerEvent: {}
+[54.230833] (ecat_pkg) StdoutLine: {'line': b'[100%] Built target ecat_node\n'}
+[54.255980] (ecat_pkg) JobEnded: {'identifier': 'ecat_pkg', 'rc': 'SIGINT'}
+[54.330516] (-) TimerEvent: {}
+[54.430956] (-) TimerEvent: {}
+[54.531439] (-) TimerEvent: {}
+[54.631915] (-) TimerEvent: {}
+[54.732364] (-) TimerEvent: {}
+[54.833021] (-) TimerEvent: {}
+[54.933440] (-) TimerEvent: {}
+[55.033916] (-) TimerEvent: {}
+[55.134330] (-) TimerEvent: {}
+[55.234855] (-) TimerEvent: {}
+[55.313054] (gui_pkg) StdoutLine: {'line': b'[100%] Built target gui_node\n'}
+[55.335019] (-) TimerEvent: {}
+[55.341010] (gui_pkg) JobEnded: {'identifier': 'gui_pkg', 'rc': 'SIGINT'}
+[55.343292] (-) EventReactorShutdown: {}

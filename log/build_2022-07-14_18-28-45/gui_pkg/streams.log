@@ -1,0 +1,78 @@
+[0.022s] Invoking command in '/home/daeyun/Desktop/spinerobot_ws/build/gui_pkg': AMENT_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/daeyun/Desktop/spinerobot_ws/src/gui_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daeyun/Desktop/spinerobot_ws/install/gui_pkg
+[0.078s] -- The C compiler identification is GNU 9.4.0
+[0.129s] -- The CXX compiler identification is GNU 9.4.0
+[0.134s] -- Check for working C compiler: /usr/bin/cc
+[0.205s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.206s] -- Detecting C compiler ABI info
+[0.289s] -- Detecting C compiler ABI info - done
+[0.310s] -- Detecting C compile features
+[0.311s] -- Detecting C compile features - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++
+[0.423s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.425s] -- Detecting CXX compiler ABI info
+[0.554s] -- Detecting CXX compiler ABI info - done
+[0.587s] -- Detecting CXX compile features
+[0.588s] -- Detecting CXX compile features - done
+[0.623s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.672s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.672s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.058s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.139s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.441s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.745s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.854s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.313s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.317s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.320s] -- Looking for pthread.h
+[2.579s] -- Looking for pthread.h - found
+[2.580s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.808s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.810s] -- Looking for pthread_create in pthreads
+[2.982s] -- Looking for pthread_create in pthreads - not found
+[2.982s] -- Looking for pthread_create in pthread
+[3.210s] -- Looking for pthread_create in pthread - found
+[3.214s] -- Found Threads: TRUE  
+[3.959s] -- Found ecat_msgs: 0.0.1 (/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake)
+[4.094s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.589s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[4.911s] -- Configuring done
+[5.010s] -- Generating done
+[5.013s] -- Build files have been written to: /home/daeyun/Desktop/spinerobot_ws/build/gui_pkg
+[5.035s] Invoked command in '/home/daeyun/Desktop/spinerobot_ws/build/gui_pkg' returned '0': AMENT_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/daeyun/Desktop/spinerobot_ws/src/gui_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daeyun/Desktop/spinerobot_ws/install/gui_pkg
+[5.045s] Invoking command in '/home/daeyun/Desktop/spinerobot_ws/build/gui_pkg': AMENT_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/daeyun/Desktop/spinerobot_ws/build/gui_pkg -- -j8 -l8
+[5.196s] [  3%] [34m[1mGenerating include/gui_pkg/moc_video_capture.cpp[0m
+[5.200s] [  7%] [34m[1mGenerating qrc_resources.cpp[0m
+[5.201s] [ 10%] [34m[1mGenerating ui_controlui.h[0m
+[5.218s] [ 14%] [34m[1mGenerating ui_main_window.h[0m
+[5.221s] [ 17%] [34m[1mGenerating ui_endoscope_viewer.h[0m
+[5.236s] RCC: Warning: No resources in '/home/daeyun/Desktop/spinerobot_ws/src/gui_pkg/resources/resources.qrc'.
+[5.237s] [ 21%] [34m[1mGenerating include/gui_pkg/moc_controlui.cpp[0m
+[5.239s] [ 25%] [34m[1mGenerating ui_mainwindow.h[0m
+[5.241s] [ 28%] [34m[1mGenerating include/gui_pkg/moc_endoscope_viewer.cpp[0m
+[5.285s] [ 32%] [34m[1mGenerating include/gui_pkg/moc_gui_node.cpp[0m
+[5.296s] [ 35%] [34m[1mGenerating include/gui_pkg/moc_gui_globals.cpp[0m
+[5.296s] [ 39%] [34m[1mGenerating include/gui_pkg/moc_main_window.cpp[0m
+[5.297s] [ 42%] [34m[1mGenerating include/gui_pkg/moc_timing.cpp[0m
+[5.303s] /home/daeyun/Desktop/spinerobot_ws/src/gui_pkg/include/gui_pkg/gui_node.hpp:0: Note: No relevant classes found. No output generated.
+[5.306s] /home/daeyun/Desktop/spinerobot_ws/src/gui_pkg/include/gui_pkg/gui_globals.hpp:0: Note: No relevant classes found. No output generated.
+[5.311s] /home/daeyun/Desktop/spinerobot_ws/src/gui_pkg/include/gui_pkg/timing.hpp:0: Note: No relevant classes found. No output generated.
+[5.339s] [35m[1mScanning dependencies of target gui_node[0m
+[6.421s] [ 46%] [32mBuilding CXX object CMakeFiles/gui_node.dir/src/endoscope_viewer.cpp.o[0m
+[6.434s] [ 50%] [32mBuilding CXX object CMakeFiles/gui_node.dir/src/controlui.cpp.o[0m
+[6.468s] [ 53%] [32mBuilding CXX object CMakeFiles/gui_node.dir/src/main.cpp.o[0m
+[6.475s] [ 57%] [32mBuilding CXX object CMakeFiles/gui_node.dir/src/main_window.cpp.o[0m
+[6.492s] [ 60%] [32mBuilding CXX object CMakeFiles/gui_node.dir/src/timing.cpp.o[0m
+[6.494s] [ 64%] [32mBuilding CXX object CMakeFiles/gui_node.dir/src/gui_node.cpp.o[0m
+[6.511s] [ 67%] [32mBuilding CXX object CMakeFiles/gui_node.dir/src/video_capture.cpp.o[0m
+[6.590s] [ 71%] [32mBuilding CXX object CMakeFiles/gui_node.dir/qrc_resources.cpp.o[0m
+[6.929s] [ 75%] [32mBuilding CXX object CMakeFiles/gui_node.dir/include/gui_pkg/moc_controlui.cpp.o[0m
+[11.765s] [ 78%] [32mBuilding CXX object CMakeFiles/gui_node.dir/include/gui_pkg/moc_endoscope_viewer.cpp.o[0m
+[13.813s] [ 82%] [32mBuilding CXX object CMakeFiles/gui_node.dir/include/gui_pkg/moc_gui_globals.cpp.o[0m
+[14.034s] [ 85%] [32mBuilding CXX object CMakeFiles/gui_node.dir/include/gui_pkg/moc_gui_node.cpp.o[0m
+[14.243s] [ 89%] [32mBuilding CXX object CMakeFiles/gui_node.dir/include/gui_pkg/moc_main_window.cpp.o[0m
+[14.250s] [ 92%] [32mBuilding CXX object CMakeFiles/gui_node.dir/include/gui_pkg/moc_timing.cpp.o[0m
+[14.441s] [ 96%] [32mBuilding CXX object CMakeFiles/gui_node.dir/include/gui_pkg/moc_video_capture.cpp.o[0m
+[45.451s] [100%] [32m[1mLinking CXX executable gui_node[0m
+[49.117s] [100%] Built target gui_node

@@ -32,15 +32,11 @@
 #include <sstream>
 #include <mutex>
 // DY
-#define SERVER_PORT_NUM "9800"
 #define TCP_BUFFER_SIZE 512
-// static int8_t g_kOperationType = kMasterType;
 
 // setting mode
 #define VELOCITY_SINEWAVE_MODE 0
 static int8_t g_kOperationType = kSlaveType;
-
-//#define g_kNumberOfServoDrivers  7
 
 // DY
 using namespace TCPCommunication;
@@ -63,7 +59,7 @@ HapticNode::HapticNode(char * argv[]) : rclcpp::Node("HapticNode")
   // m_IP = argv[1];     m_Port = argv[2];
 
   // DY - set IP and Port as Server
-  m_Port = SERVER_PORT_NUM;
+  m_Port = "9800";
   // m_Port = argv[1];
   
   auto qos = rclcpp::QoS(
@@ -281,7 +277,7 @@ void HapticNode::CommReadThread(int fd_client)
       
     }
 
-    if(g_kOperationMode == kProfileVelocity)
+    if(g_kOperationType == kSlaveType)
     {
     // For Publisher - Velocity Mode - Slave
     hapticMsg.array[0] = val[0]*5634.085;
@@ -291,16 +287,16 @@ void HapticNode::CommReadThread(int fd_client)
     hapticMsg.array[4] = val[4]*630.2536;
     hapticMsg.array[5] = val[5]*630.2536;
     hapticMsg.array[6] = val[6]*630.2536;
-    hapticMsg.array[0] = 0;
-    hapticMsg.array[1] = 0;
-    hapticMsg.array[2] = 0;
-    hapticMsg.array[3] = 0;
-    hapticMsg.array[4] = 0;
-    hapticMsg.array[5] = 0;
-    hapticMsg.array[6] = 0;
+    // hapticMsg.array[0] = 0;
+    // hapticMsg.array[1] = 0;
+    // hapticMsg.array[2] = 0;
+    // hapticMsg.array[3] = 0;
+    // hapticMsg.array[4] = 0;
+    // hapticMsg.array[5] = 0;
+    // hapticMsg.array[6] = 0;
     }
 
-    if(g_kOperationMode == kCSTorque)
+    if(g_kOperationType == kMasterType)
     {
     // For Publisher - Torque Mode - Master
     hapticMsg.array[0] = (-1.0)*val[0]*0.000183559;
@@ -310,7 +306,6 @@ void HapticNode::CommReadThread(int fd_client)
     hapticMsg.array[4] = val[4]*0.002978052*0.5;
     hapticMsg.array[5] = val[5]*0.002978052*0.5;
     hapticMsg.array[6] = val[6]*0.002978052*0.5;
-    }
     // hapticMsg.array[0] = 0;
     // hapticMsg.array[1] = 0;
     // hapticMsg.array[2] = 0;
@@ -318,6 +313,8 @@ void HapticNode::CommReadThread(int fd_client)
     // hapticMsg.array[4] = 0;
     // hapticMsg.array[5] = 0;
     // hapticMsg.array[6] = 0;
+    }
+    
 
     // -------------- < Parsing End > --------------
 

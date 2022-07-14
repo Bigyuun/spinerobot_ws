@@ -1,0 +1,22 @@
+[0.023s] Invoking command in '/home/daeyun/Desktop/spinerobot_ws/build/safety_pkg': AMENT_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/daeyun/Desktop/spinerobot_ws/build/safety_pkg -- -j8 -l8
+[0.088s] [100%] Built target safety_node
+[0.098s] Invoked command in '/home/daeyun/Desktop/spinerobot_ws/build/safety_pkg' returned '0': AMENT_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/daeyun/Desktop/spinerobot_ws/build/safety_pkg -- -j8 -l8
+[0.125s] Invoking command in '/home/daeyun/Desktop/spinerobot_ws/build/safety_pkg': AMENT_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/daeyun/Desktop/spinerobot_ws/build/safety_pkg
+[0.134s] -- Install configuration: ""
+[0.134s] -- Execute custom install script
+[0.135s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/lib/safety_pkg/safety_node
+[0.144s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/ament_index/resource_index/package_run_dependencies/safety_pkg
+[0.154s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/ament_index/resource_index/parent_prefix_path/safety_pkg
+[0.163s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/safety_pkg/environment/ament_prefix_path.sh
+[0.173s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/safety_pkg/environment/ament_prefix_path.dsv
+[0.182s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/safety_pkg/environment/path.sh
+[0.193s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/safety_pkg/environment/path.dsv
+[0.202s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/safety_pkg/local_setup.bash
+[0.211s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/safety_pkg/local_setup.sh
+[0.220s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/safety_pkg/local_setup.zsh
+[0.229s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/safety_pkg/local_setup.dsv
+[0.239s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/safety_pkg/package.dsv
+[0.248s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/ament_index/resource_index/packages/safety_pkg
+[0.259s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/safety_pkg/cmake/safety_pkgConfig.cmake
+[0.268s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/safety_pkg/cmake/safety_pkgConfig-version.cmake
+[0.276s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/safety_pkg/share/safety_pkg/package.xml

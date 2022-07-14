@@ -1,0 +1,71 @@
+[0.011s] Invoking command in '/home/daeyun/Desktop/spinerobot_ws/build/controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daeyun/Desktop/spinerobot_ws/src/controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daeyun/Desktop/spinerobot_ws/install/controller
+[0.068s] -- The C compiler identification is GNU 9.4.0
+[0.108s] -- The CXX compiler identification is GNU 9.4.0
+[0.114s] -- Check for working C compiler: /usr/bin/cc
+[0.166s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.168s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.232s] -- Detecting C compile features
+[0.232s] -- Detecting C compile features - done
+[0.236s] -- Check for working CXX compiler: /usr/bin/c++
+[0.297s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.298s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.367s] -- Detecting CXX compile features
+[0.367s] -- Detecting CXX compile features - done
+[0.369s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.391s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.391s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.550s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.583s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.620s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.624s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.685s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.707s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.770s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.822s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.824s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.825s] -- Looking for pthread.h
+[0.880s] -- Looking for pthread.h - found
+[0.880s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.937s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.938s] -- Looking for pthread_create in pthreads
+[0.986s] -- Looking for pthread_create in pthreads - not found
+[0.986s] -- Looking for pthread_create in pthread
+[1.038s] -- Looking for pthread_create in pthread - found
+[1.039s] -- Found Threads: TRUE  
+[1.152s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.239s] -- Found rttest: 0.9.0 (/opt/ros/foxy/share/rttest/cmake)
+[1.242s] -- Found tlsf_cpp: 0.9.0 (/opt/ros/foxy/share/tlsf_cpp/cmake)
+[1.246s] -- Looking for include file linux/joystick.h
+[1.304s] -- Looking for include file linux/joystick.h - found
+[1.354s] -- Configuring done
+[1.362s] -- Generating done
+[1.363s] -- Build files have been written to: /home/daeyun/Desktop/spinerobot_ws/build/controller
+[1.369s] Invoked command in '/home/daeyun/Desktop/spinerobot_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daeyun/Desktop/spinerobot_ws/src/controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daeyun/Desktop/spinerobot_ws/install/controller
+[1.371s] Invoking command in '/home/daeyun/Desktop/spinerobot_ws/build/controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daeyun/Desktop/spinerobot_ws/build/controller -- -j8 -l8
+[1.406s] [35m[1mScanning dependencies of target joy_node[0m
+[1.441s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_node.dir/src/joy_node_linux.cpp.o[0m
+[4.805s] [100%] [32m[1mLinking CXX executable joy_node[0m
+[4.955s] [100%] Built target joy_node
+[4.972s] Invoked command in '/home/daeyun/Desktop/spinerobot_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daeyun/Desktop/spinerobot_ws/build/controller -- -j8 -l8
+[5.024s] Invoking command in '/home/daeyun/Desktop/spinerobot_ws/build/controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daeyun/Desktop/spinerobot_ws/build/controller
+[5.035s] -- Install configuration: ""
+[5.036s] -- Execute custom install script
+[5.037s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/lib/controller/joy_node
+[5.046s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[5.055s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[5.062s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/environment/ament_prefix_path.sh
+[5.069s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/environment/ament_prefix_path.dsv
+[5.076s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/environment/path.sh
+[5.083s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/environment/path.dsv
+[5.090s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/local_setup.bash
+[5.097s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/local_setup.sh
+[5.104s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/local_setup.zsh
+[5.113s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/local_setup.dsv
+[5.123s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/package.dsv
+[5.134s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/ament_index/resource_index/packages/controller
+[5.143s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/cmake/controllerConfig.cmake
+[5.152s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[5.161s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/controller/share/controller/package.xml
+[5.172s] Invoked command in '/home/daeyun/Desktop/spinerobot_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daeyun/Desktop/spinerobot_ws/build/controller

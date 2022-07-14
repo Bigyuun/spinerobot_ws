@@ -1,0 +1,251 @@
+[0.014s] Invoking command in '/home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daeyun/Desktop/spinerobot_ws/src/ecat_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs
+[0.073s] -- The C compiler identification is GNU 9.4.0
+[0.114s] -- The CXX compiler identification is GNU 9.4.0
+[0.120s] -- Check for working C compiler: /usr/bin/cc
+[0.172s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.173s] -- Detecting C compiler ABI info
+[0.230s] -- Detecting C compiler ABI info - done
+[0.238s] -- Detecting C compile features
+[0.238s] -- Detecting C compile features - done
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++
+[0.303s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.304s] -- Detecting CXX compiler ABI info
+[0.365s] -- Detecting CXX compiler ABI info - done
+[0.372s] -- Detecting CXX compile features
+[0.373s] -- Detecting CXX compile features - done
+[0.375s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.397s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.397s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.556s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.588s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.615s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.620s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.689s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.712s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.776s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.815s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.839s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.964s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.098s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.142s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.160s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.161s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.181s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.181s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.182s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.182s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.197s] -- Found PythonExtra: .so  
+[1.254s] -- Configuring done
+[1.290s] -- Generating done
+[1.292s] -- Build files have been written to: /home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs
+[1.298s] Invoked command in '/home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daeyun/Desktop/spinerobot_ws/src/ecat_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs
+[1.300s] Invoking command in '/home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs -- -j8 -l8
+[1.333s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.333s] [35m[1mScanning dependencies of target ecat_msgs__cpp[0m
+[1.343s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.703s] [35m[1mScanning dependencies of target ecat_msgs__rosidl_generator_c[0m
+[1.713s] [  3%] Built target ecat_msgs__cpp
+[1.719s] [  5%] [32mBuilding C object CMakeFiles/ecat_msgs__rosidl_generator_c.dir/rosidl_generator_c/ecat_msgs/msg/detail/haptic_cmd__functions.c.o[0m
+[1.720s] [  9%] [32mBuilding C object CMakeFiles/ecat_msgs__rosidl_generator_c.dir/rosidl_generator_c/ecat_msgs/msg/detail/data_sent__functions.c.o[0m
+[1.720s] [  9%] [32mBuilding C object CMakeFiles/ecat_msgs__rosidl_generator_c.dir/rosidl_generator_c/ecat_msgs/msg/detail/gui_button_data__functions.c.o[0m
+[1.720s] [ 10%] [32mBuilding C object CMakeFiles/ecat_msgs__rosidl_generator_c.dir/rosidl_generator_c/ecat_msgs/msg/detail/data_received__functions.c.o[0m
+[1.728s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.728s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.728s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.778s] [ 18%] [32m[1mLinking C shared library libecat_msgs__rosidl_generator_c.so[0m
+[1.815s] [ 18%] Built target ecat_msgs__rosidl_generator_c
+[1.829s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.829s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.227s] [35m[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_cpp[0m
+[2.247s] [ 23%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ecat_msgs/msg/data_sent__type_support.cpp.o[0m
+[2.248s] [ 27%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ecat_msgs/msg/gui_button_data__type_support.cpp.o[0m
+[2.248s] [ 27%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ecat_msgs/msg/data_received__type_support.cpp.o[0m
+[2.260s] [ 29%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ecat_msgs/msg/haptic_cmd__type_support.cpp.o[0m
+[2.375s] [35m[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.385s] [35m[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_c[0m
+[2.402s] [ 30%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ecat_msgs/msg/detail/dds_fastrtps/data_received__type_support.cpp.o[0m
+[2.410s] [ 32%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ecat_msgs/msg/data_received__type_support.cpp.o[0m
+[2.419s] [35m[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.463s] [ 34%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ecat_msgs/msg/data_sent__type_support.cpp.o[0m
+[2.479s] [ 36%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ecat_msgs/msg/detail/data_received__type_support.cpp.o[0m
+[2.495s] [35m[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_introspection_c[0m
+[2.535s] [ 38%] [32mBuilding C object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ecat_msgs/msg/detail/data_received__type_support.c.o[0m
+[2.540s] [ 40%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ecat_msgs/msg/gui_button_data__type_support.cpp.o[0m
+[2.623s] [ 41%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ecat_msgs/msg/haptic_cmd__type_support.cpp.o[0m
+[2.639s] [ 43%] [32mBuilding C object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ecat_msgs/msg/detail/data_sent__type_support.c.o[0m
+[2.666s] [ 45%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ecat_msgs/msg/detail/dds_fastrtps/data_sent__type_support.cpp.o[0m
+[2.676s] [ 47%] [32mBuilding C object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ecat_msgs/msg/detail/gui_button_data__type_support.c.o[0m
+[2.677s] [ 49%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ecat_msgs/msg/detail/dds_fastrtps/gui_button_data__type_support.cpp.o[0m
+[2.679s] [ 50%] [32m[1mLinking CXX shared library libecat_msgs__rosidl_typesupport_cpp.so[0m
+[2.692s] [ 52%] [32mBuilding C object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ecat_msgs/msg/detail/haptic_cmd__type_support.c.o[0m
+[2.707s] [ 54%] [32m[1mLinking CXX shared library libecat_msgs__rosidl_typesupport_c.so[0m
+[2.757s] [ 56%] [32m[1mLinking C shared library libecat_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.759s] [ 58%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ecat_msgs/msg/detail/dds_fastrtps/haptic_cmd__type_support.cpp.o[0m
+[2.777s] [ 58%] Built target ecat_msgs__rosidl_typesupport_c
+[2.779s] [ 58%] Built target ecat_msgs__rosidl_typesupport_cpp
+[2.793s] [ 60%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ecat_msgs/msg/detail/data_sent__type_support.cpp.o[0m
+[2.794s] [ 61%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ecat_msgs/msg/detail/gui_button_data__type_support.cpp.o[0m
+[2.829s] [ 61%] Built target ecat_msgs__rosidl_typesupport_introspection_c
+[2.844s] [ 63%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ecat_msgs/msg/detail/haptic_cmd__type_support.cpp.o[0m
+[3.389s] [ 65%] [32m[1mLinking CXX shared library libecat_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.431s] [ 67%] [32m[1mLinking CXX shared library libecat_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.469s] [ 67%] Built target ecat_msgs__rosidl_typesupport_fastrtps_cpp
+[3.479s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.500s] [ 69%] Built target ecat_msgs__rosidl_typesupport_introspection_cpp
+[3.760s] [35m[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_fastrtps_c[0m
+[3.776s] [ 72%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ecat_msgs/msg/detail/gui_button_data__type_support_c.cpp.o[0m
+[3.777s] [ 72%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ecat_msgs/msg/detail/data_received__type_support_c.cpp.o[0m
+[3.778s] [ 74%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ecat_msgs/msg/detail/haptic_cmd__type_support_c.cpp.o[0m
+[3.778s] [ 76%] [32mBuilding CXX object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ecat_msgs/msg/detail/data_sent__type_support_c.cpp.o[0m
+[4.185s] [ 78%] [32m[1mLinking CXX shared library libecat_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.251s] [ 78%] Built target ecat_msgs__rosidl_typesupport_fastrtps_c
+[4.259s] [35m[1mScanning dependencies of target ecat_msgs[0m
+[4.267s] [ 78%] Built target ecat_msgs
+[4.275s] [35m[1mScanning dependencies of target ecat_msgs__py[0m
+[4.283s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.907s] [ 80%] Built target ecat_msgs__py
+[4.915s] [35m[1mScanning dependencies of target ecat_msgs__python[0m
+[4.951s] [ 81%] [32mBuilding C object CMakeFiles/ecat_msgs__python.dir/rosidl_generator_py/ecat_msgs/msg/_haptic_cmd_s.c.o[0m
+[4.951s] [ 83%] [32mBuilding C object CMakeFiles/ecat_msgs__python.dir/rosidl_generator_py/ecat_msgs/msg/_data_sent_s.c.o[0m
+[4.952s] [ 85%] [32mBuilding C object CMakeFiles/ecat_msgs__python.dir/rosidl_generator_py/ecat_msgs/msg/_data_received_s.c.o[0m
+[4.952s] [ 87%] [32mBuilding C object CMakeFiles/ecat_msgs__python.dir/rosidl_generator_py/ecat_msgs/msg/_gui_button_data_s.c.o[0m
+[5.074s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/ecat_msgs/libecat_msgs__python.so[0m
+[5.106s] [ 89%] Built target ecat_msgs__python
+[5.116s] [35m[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[5.116s] [35m[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_c__pyext[0m
+[5.116s] [35m[1mScanning dependencies of target ecat_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.135s] [ 90%] [32mBuilding C object CMakeFiles/ecat_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ecat_msgs/_ecat_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.136s] [ 92%] [32mBuilding C object CMakeFiles/ecat_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ecat_msgs/_ecat_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.138s] [ 94%] [32mBuilding C object CMakeFiles/ecat_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ecat_msgs/_ecat_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.216s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ecat_msgs/ecat_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.216s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ecat_msgs/ecat_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.223s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/ecat_msgs/ecat_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[5.248s] [100%] Built target ecat_msgs__rosidl_typesupport_c__pyext
+[5.248s] [100%] Built target ecat_msgs__rosidl_typesupport_introspection_c__pyext
+[5.275s] [100%] Built target ecat_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.284s] Invoked command in '/home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs -- -j8 -l8
+[5.377s] Invoking command in '/home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs
+[5.383s] -- Install configuration: ""
+[5.383s] -- Execute custom install script
+[5.384s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ament_index/resource_index/rosidl_interfaces/ecat_msgs
+[5.391s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/data_received.h
+[5.398s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/data_sent.h
+[5.404s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__functions.h
+[5.411s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__struct.h
+[5.417s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__type_support.h
+[5.423s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__functions.h
+[5.430s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__struct.h
+[5.436s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__type_support.h
+[5.443s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__functions.h
+[5.450s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__struct.h
+[5.457s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__type_support.h
+[5.465s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__functions.h
+[5.471s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__struct.h
+[5.478s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__type_support.h
+[5.485s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/gui_button_data.h
+[5.492s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/haptic_cmd.h
+[5.498s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.505s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/library_path.sh
+[5.511s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/library_path.dsv
+[5.518s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__rosidl_typesupport_fastrtps_c.h
+[5.524s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__rosidl_typesupport_fastrtps_c.h
+[5.530s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__rosidl_typesupport_fastrtps_c.h
+[5.536s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__rosidl_typesupport_fastrtps_c.h
+[5.543s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.550s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_fastrtps_c.so
+[5.558s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__rosidl_typesupport_fastrtps_cpp.hpp
+[5.564s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__rosidl_typesupport_fastrtps_cpp.hpp
+[5.571s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__rosidl_typesupport_fastrtps_cpp.hpp
+[5.577s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[5.584s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.592s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.600s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__rosidl_typesupport_introspection_c.h
+[5.608s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__rosidl_typesupport_introspection_c.h
+[5.617s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__rosidl_typesupport_introspection_c.h
+[5.625s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__rosidl_typesupport_introspection_c.h
+[5.633s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.641s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/data_received.hpp
+[5.648s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/data_sent.hpp
+[5.656s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__builder.hpp
+[5.663s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__struct.hpp
+[5.669s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__traits.hpp
+[5.676s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__builder.hpp
+[5.682s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__struct.hpp
+[5.689s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__traits.hpp
+[5.695s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__builder.hpp
+[5.702s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__struct.hpp
+[5.709s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__traits.hpp
+[5.716s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__builder.hpp
+[5.722s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__struct.hpp
+[5.729s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__traits.hpp
+[5.735s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/gui_button_data.hpp
+[5.742s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/haptic_cmd.hpp
+[5.749s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_received__rosidl_typesupport_introspection_cpp.hpp
+[5.756s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/data_sent__rosidl_typesupport_introspection_cpp.hpp
+[5.762s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/gui_button_data__rosidl_typesupport_introspection_cpp.hpp
+[5.769s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/include/ecat_msgs/msg/detail/haptic_cmd__rosidl_typesupport_introspection_cpp.hpp
+[5.776s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/pythonpath.sh
+[5.782s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/pythonpath.dsv
+[5.789s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/__init__.py
+[5.795s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/msg/__init__.py
+[5.801s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/msg/_data_received.py
+[5.808s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/msg/_data_sent.py
+[5.814s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/msg/_gui_button_data.py
+[5.820s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/msg/_haptic_cmd.py
+[5.827s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/ecat_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[5.834s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/ecat_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[5.841s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/ecat_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[5.847s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__python.so
+[5.854s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/DataReceived.idl
+[5.860s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/DataSent.idl
+[5.866s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/GuiButtonData.idl
+[5.873s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/HapticCmd.idl
+[5.880s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/DataReceived.msg
+[5.887s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/DataSent.msg
+[5.894s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/GuiButtonData.msg
+[5.901s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/msg/HapticCmd.msg
+[5.908s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ament_index/resource_index/package_run_dependencies/ecat_msgs
+[5.916s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ament_index/resource_index/parent_prefix_path/ecat_msgs
+[5.923s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/ament_prefix_path.sh
+[5.930s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/ament_prefix_path.dsv
+[5.937s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/path.sh
+[5.944s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/environment/path.dsv
+[5.951s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/local_setup.bash
+[5.958s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/local_setup.sh
+[5.965s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/local_setup.zsh
+[5.971s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/local_setup.dsv
+[5.978s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/package.dsv
+[5.985s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ament_index/resource_index/packages/ecat_msgs
+[5.992s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/rosidl_cmake-extras.cmake
+[5.999s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.006s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.014s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.021s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.029s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.036s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.045s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgsConfig.cmake
+[6.053s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgsConfig-version.cmake
+[6.060s] -- Symlinking: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/package.xml
+[6.068s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_generator_c.so
+[6.068s] -- Set runtime path of "/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_generator_c.so" to ""
+[6.068s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_introspection_c.so
+[6.068s] -- Set runtime path of "/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.068s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_c.so
+[6.069s] -- Set runtime path of "/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_c.so" to ""
+[6.069s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_introspection_cpp.so
+[6.069s] -- Set runtime path of "/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.069s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_cpp.so
+[6.070s] -- Set runtime path of "/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/libecat_msgs__rosidl_typesupport_cpp.so" to ""
+[6.091s] Compiling '/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages/ecat_msgs/__init__.py'...
+[6.094s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_generator_cExport.cmake
+[6.094s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.094s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.095s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.095s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_cExport.cmake
+[6.095s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.095s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_generator_cppExport.cmake
+[6.095s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.095s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.095s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_cppExport.cmake
+[6.095s] -- Installing: /home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake/ecat_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.099s] Invoked command in '/home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daeyun/Desktop/spinerobot_ws/build/ecat_msgs

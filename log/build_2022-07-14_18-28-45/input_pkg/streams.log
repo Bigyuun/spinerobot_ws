@@ -1,0 +1,112 @@
+[0.019s] Invoking command in '/home/daeyun/Desktop/spinerobot_ws/build/input_pkg': AMENT_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/daeyun/Desktop/spinerobot_ws/src/input_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daeyun/Desktop/spinerobot_ws/install/input_pkg
+[0.072s] -- The C compiler identification is GNU 9.4.0
+[0.125s] -- The CXX compiler identification is GNU 9.4.0
+[0.131s] -- Check for working C compiler: /usr/bin/cc
+[0.204s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.206s] -- Detecting C compiler ABI info
+[0.294s] -- Detecting C compiler ABI info - done
+[0.308s] -- Detecting C compile features
+[0.308s] -- Detecting C compile features - done
+[0.311s] -- Check for working CXX compiler: /usr/bin/c++
+[0.419s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.420s] -- Detecting CXX compiler ABI info
+[0.548s] -- Detecting CXX compiler ABI info - done
+[0.567s] -- Detecting CXX compile features
+[0.568s] -- Detecting CXX compile features - done
+[0.571s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.613s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.613s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.948s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.022s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.227s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.545s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.646s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.997s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.277s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.284s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.287s] -- Looking for pthread.h
+[2.554s] -- Looking for pthread.h - found
+[2.555s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.784s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.785s] -- Looking for pthread_create in pthreads
+[2.969s] -- Looking for pthread_create in pthreads - not found
+[2.969s] -- Looking for pthread_create in pthread
+[3.206s] -- Looking for pthread_create in pthread - found
+[3.210s] -- Found Threads: TRUE  
+[3.968s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.509s] -- Found ecat_msgs: 0.0.1 (/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/share/ecat_msgs/cmake)
+[4.728s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.052s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.056s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.056s] -- Configured cppcheck include dirs: /home/daeyun/Desktop/spinerobot_ws/src/input_pkg/include/input_pkg;$<BUILD_INTERFACE:/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/include>
+[5.057s] -- Configured cppcheck exclude dirs and/or files: 
+[5.060s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.060s] -- Configured cpplint exclude dirs and/or files: 
+[5.062s] -- Added test 'lint_cmake' to check CMake code style
+[5.065s] -- Added test 'uncrustify' to check C / C++ code style
+[5.065s] -- Configured uncrustify additional arguments: 
+[5.067s] -- Added test 'xmllint' to check XML markup files
+[5.081s] -- Configuring done
+[5.112s] -- Generating done
+[5.117s] -- Build files have been written to: /home/daeyun/Desktop/spinerobot_ws/build/input_pkg
+[5.140s] Invoked command in '/home/daeyun/Desktop/spinerobot_ws/build/input_pkg' returned '0': AMENT_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/daeyun/Desktop/spinerobot_ws/src/input_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/daeyun/Desktop/spinerobot_ws/install/input_pkg
+[5.150s] Invoking command in '/home/daeyun/Desktop/spinerobot_ws/build/input_pkg': AMENT_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/daeyun/Desktop/spinerobot_ws/build/input_pkg -- -j8 -l8
+[5.335s] [35m[1mScanning dependencies of target hapticNode[0m
+[5.484s] [ 33%] [32mBuilding CXX object CMakeFiles/hapticNode.dir/src/TCPcomm.cpp.o[0m
+[5.484s] [ 66%] [32mBuilding CXX object CMakeFiles/hapticNode.dir/src/hapticNode.cpp.o[0m
+[6.477s] In file included from [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/hapticNode.cpp:28[m[K:
+[6.478s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/include/input_pkg/hapticNode.hpp:33:10:[m[K [01;31m[Kfatal error: [m[Kecat_globals.hpp: No such file or directory
+[6.478s]    33 | #include [01;31m[K"ecat_globals.hpp"[m[K
+[6.478s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.479s] compilation terminated.
+[6.516s] make[2]: *** [CMakeFiles/hapticNode.dir/build.make:63: CMakeFiles/hapticNode.dir/src/hapticNode.cpp.o] Error 1
+[6.517s] make[2]: *** Waiting for unfinished jobs....
+[7.322s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:[m[K In constructor ‘[01m[KTCPCommunication::TCPServer::TCPServer(int)[m[K’:
+[7.324s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:31:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+[7.324s]    31 |     printf("Size of Buffer(server) = [01;35m[K%d[m[K\n", [32m[Kbuffer_size_[m[K);
+[7.324s]       |                                      [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~[m[K
+[7.325s]       |                                       [01;35m[K|[m[K     [32m[K|[m[K
+[7.325s]       |                                       [01;35m[Kint[m[K   [32m[Kssize_t {aka long int}[m[K
+[7.325s]       |                                      [32m[K%ld[m[K
+[7.326s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:[m[K In constructor ‘[01m[KTCPCommunication::TCPServer::TCPServer(int, int)[m[K’:
+[7.326s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:44:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+[7.326s]    44 |     printf("Size of Buffer(server) = [01;35m[K%d[m[K\n", [32m[Kbuffer_size_[m[K);
+[7.327s]       |                                      [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~[m[K
+[7.327s]       |                                       [01;35m[K|[m[K     [32m[K|[m[K
+[7.327s]       |                                       [01;35m[Kint[m[K   [32m[Kssize_t {aka long int}[m[K
+[7.328s]       |                                      [32m[K%ld[m[K
+[7.328s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:[m[K In constructor ‘[01m[KTCPCommunication::TCPServer::TCPServer(int, int, int)[m[K’:
+[7.328s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:57:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+[7.329s]    57 |     printf("Size of Buffer(server) = [01;35m[K%d[m[K\n", [32m[Kbuffer_size_[m[K);
+[7.329s]       |                                      [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~[m[K
+[7.329s]       |                                       [01;35m[K|[m[K     [32m[K|[m[K
+[7.330s]       |                                       [01;35m[Kint[m[K   [32m[Kssize_t {aka long int}[m[K
+[7.330s]       |                                      [32m[K%ld[m[K
+[7.340s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:[m[K In constructor ‘[01m[KTCPCommunication::TCPClient::TCPClient(const char*, int)[m[K’:
+[7.340s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:221:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+[7.341s]   221 |     printf("IP address : [01;35m[K%s[m[K", IP_address_);
+[7.341s]       |                          [01;35m[K~^[m[K
+[7.341s]       |                           [01;35m[K|[m[K
+[7.342s]       |                           [01;35m[Kchar*[m[K
+[7.342s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:223:48:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+[7.342s]   223 |     printf("Size of Buffer(client, DEFAULT) = [01;35m[K%d[m[K\n", [32m[Kbuffer_size_[m[K);
+[7.343s]       |                                               [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~[m[K
+[7.343s]       |                                                [01;35m[K|[m[K     [32m[K|[m[K
+[7.343s]       |                                                [01;35m[Kint[m[K   [32m[Kssize_t {aka long int}[m[K
+[7.344s]       |                                               [32m[K%ld[m[K
+[7.344s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:[m[K In constructor ‘[01m[KTCPCommunication::TCPClient::TCPClient(const char*, int, int)[m[K’:
+[7.344s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:234:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+[7.344s]   234 |     printf("IP address : [01;35m[K%s[m[K", IP_address_);
+[7.345s]       |                          [01;35m[K~^[m[K
+[7.345s]       |                           [01;35m[K|[m[K
+[7.345s]       |                           [01;35m[Kchar*[m[K
+[7.346s] [01m[K/home/daeyun/Desktop/spinerobot_ws/src/input_pkg/src/TCPcomm.cpp:236:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+[7.346s]   236 |     printf("Size of Buffer(client) = [01;35m[K%d[m[K\n", [32m[Kbuffer_size_[m[K);
+[7.346s]       |                                      [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~~[m[K
+[7.347s]       |                                       [01;35m[K|[m[K     [32m[K|[m[K
+[7.347s]       |                                       [01;35m[Kint[m[K   [32m[Kssize_t {aka long int}[m[K
+[7.354s]       |                                      [32m[K%ld[m[K
+[7.960s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/hapticNode.dir/all] Error 2
+[7.964s] make: *** [Makefile:141: all] Error 2
+[7.985s] Invoked command in '/home/daeyun/Desktop/spinerobot_ws/build/input_pkg' returned '2': AMENT_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/daeyun/Desktop/spinerobot_ws/install/ecat_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/daeyun/Desktop/spinerobot_ws/build/input_pkg -- -j8 -l8

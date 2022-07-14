@@ -46,9 +46,9 @@
 /// Number of connected servo drives.                
 const uint32_t  g_kNumberOfServoDrivers = 7 ; 
 /// Select operation mode for motors, default: Profile Velocity.
-// static int8_t   g_kOperationMode = kProfileVelocity ;  // Velocity mode - slave
+ static int8_t   g_kOperationMode = kProfileVelocity ;  // Velocity mode - slave
 // static int8_t   g_kOperationMode = kCSVelocity ;  // Velocity mode - slave
-static int8_t   g_kOperationMode = kCSTorque ;  // Torque mode - master
+//static int8_t   g_kOperationMode = kCSTorque ;  // Torque mode - master
 
 #define NUM_OF_SLAVES     7  /// Total number of connected slave to the bus.
 /// Set this to 1 if you have custom EtherCAT slave other than servo drive.

@@ -58,6 +58,10 @@ include_directories("include/input_pkg/")
 
 # **********************************************
 # CKim - Files to be compiled and built
+include_directories("include/input_pkg/"
+                    "../ecat_pkg/include/ecat_pkg/"   # DY - using globals.hpp
+                    "/opt/etherlab/include/")         # DY - using ecrt.h for globals.hpp
+
 add_executable(hapticNode src/hapticNode.cpp
                           src/TCPcomm.cpp)
                           
